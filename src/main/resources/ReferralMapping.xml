@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbook>
+    <worksheet name="DatosRemision">
+        <section startRow="0" endRow="0" />
+        <loop startRow="1" endRow="1" items="referrals" var="referral" varType="org.active.one.noah.util.excel.model.entity.Referral">
+            <section startRow="1" endRow="1">
+                <mapping row="1" col="0">referral.customer</mapping>
+                <mapping row="1" col="1">referral.idType</mapping>
+                <mapping row="1" col="2">referral.paymentWay</mapping>
+                <mapping row="1" col="3">referral.notes</mapping>
+                <mapping row="1" col="4">referral.addProduct</mapping>
+                <mapping row="1" col="5">referral.quantityProduct</mapping>
+                <mapping row="1" col="6">referral.addService</mapping>
+                <mapping row="1" col="7">referral.quantityService</mapping>
+                <mapping row="1" col="8">referral.addPlan</mapping>
+                <mapping row="1" col="9">referral.quantityPlan</mapping>
+                <mapping row="1" col="10">referral.discountTypeProduct</mapping>
+                <mapping row="1" col="11">referral.discountValueProduct</mapping>
+                <mapping row="1" col="12">referral.discountTypeService</mapping>
+                <mapping row="1" col="13">referral.discountValueService</mapping>
+                <mapping row="1" col="14">referral.discountTypePlan</mapping>
+                <mapping row="1" col="15">referral.discountValuePlan</mapping>
+                <mapping row="1" col="16">referral.productPrice</mapping>
+                <mapping row="1" col="17">referral.servicePrice</mapping>
+                <mapping row="1" col="18">referral.planPrice</mapping>
+                <mapping row="1" col="19">referral.taxProduct</mapping>
+                <mapping row="1" col="20">referral.taxService</mapping>
+                <mapping row="1" col="21">referral.taxPlan</mapping>
+            </section>
+            <loopbreakcondition>
+                <rowcheck offset="0">
+                    <cellcheck offset="0" />
+                </rowcheck>
+            </loopbreakcondition>
+        </loop>
+    </worksheet>
+</workbook>

@@ -1,0 +1,1467 @@
+<html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>noah-web</title><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css"><script src="/config.js"></script><link href="/css/chunk-0156f45a.dee91839.css" rel="prefetch"><link href="/css/chunk-07ac5e52.3f5e74cc.css" rel="prefetch"><link href="/css/chunk-0a92d6e4.fca81b1a.css" rel="prefetch"><link href="/css/chunk-0ac31635.2fd78fd8.css" rel="prefetch"><link href="/css/chunk-1367e479.4511fb74.css" rel="prefetch"><link href="/css/chunk-1ce100c7.69ce5a08.css" rel="prefetch"><link href="/css/chunk-1e5e1ee3.a94b7509.css" rel="prefetch"><link href="/css/chunk-1ffef99d.01cf6fd8.css" rel="prefetch"><link href="/css/chunk-2008f017.01cf6fd8.css" rel="prefetch"><link href="/css/chunk-20119172.01cf6fd8.css" rel="prefetch"><link href="/css/chunk-2019c400.01cf6fd8.css" rel="prefetch"><link href="/css/chunk-21f830af.f4265ba3.css" rel="prefetch"><link href="/css/chunk-22f08a41.d72f5d53.css" rel="prefetch"><link href="/css/chunk-26f63582.1b2806bd.css" rel="prefetch"><link href="/css/chunk-27e72159.9aaa3196.css" rel="prefetch"><link href="/css/chunk-36a680b8.9d2621a8.css" rel="prefetch"><link href="/css/chunk-3a38da86.44481cf6.css" rel="prefetch"><link href="/css/chunk-402de03d.38c10931.css" rel="prefetch"><link href="/css/chunk-432d9be5.bdcfa3b0.css" rel="prefetch"><link href="/css/chunk-436d24ab.31e2ba72.css" rel="prefetch"><link href="/css/chunk-47c5fb0a.34cdef27.css" rel="prefetch"><link href="/css/chunk-4a8f060d.9cc1be7c.css" rel="prefetch"><link href="/css/chunk-4b0db3e2.7395fb49.css" rel="prefetch"><link href="/css/chunk-560f6c61.01cf6fd8.css" rel="prefetch"><link href="/css/chunk-5645bd88.0f676271.css" rel="prefetch"><link href="/css/chunk-56becaae.8d277f3d.css" rel="prefetch"><link href="/css/chunk-61a13aef.e734a961.css" rel="prefetch"><link href="/css/chunk-64675bdb.9cc1be7c.css" rel="prefetch"><link href="/css/chunk-66e7e294.50511716.css" rel="prefetch"><link href="/css/chunk-6b51fba4.aa35bca3.css" rel="prefetch"><link href="/css/chunk-741d9a38.695281e9.css" rel="prefetch"><link href="/css/chunk-7a917452.0487d808.css" rel="prefetch"><link href="/css/chunk-7c982919.74af7b2f.css" rel="prefetch"><link href="/css/chunk-7dd41f42.49830f27.css" rel="prefetch"><link href="/css/chunk-a908fa92.aa39cb56.css" rel="prefetch"><link href="/css/chunk-b53c0cba.bf303b08.css" rel="prefetch"><link href="/css/chunk-bf34a092.bdcfa3b0.css" rel="prefetch"><link href="/css/chunk-d614b20e.6cb93b9f.css" rel="prefetch"><link href="/css/chunk-df9c9df6.8705c718.css" rel="prefetch"><link href="/css/chunk-ec6522ba.eb052a1b.css" rel="prefetch"><link href="/css/chunk-fbd90180.de79ea32.css" rel="prefetch"><link href="/js/chunk-0156f45a.cecaa053.js" rel="prefetch"><link href="/js/chunk-07ac5e52.68ca6640.js" rel="prefetch"><link href="/js/chunk-0a92d6e4.1cffb40a.js" rel="prefetch"><link href="/js/chunk-0ac31635.bf276a45.js" rel="prefetch"><link href="/js/chunk-0fd5eccf.3255ff48.js" rel="prefetch"><link href="/js/chunk-0fd674da.91cbf886.js" rel="prefetch"><link href="/js/chunk-0fd6e417.74e072b0.js" rel="prefetch"><link href="/js/chunk-0fd78364.b28864d6.js" rel="prefetch"><link href="/js/chunk-0fd9a9a0.3791dfbb.js" rel="prefetch"><link href="/js/chunk-0fd9dc41.fb0d5ca2.js" rel="prefetch"><link href="/js/chunk-0fed6665.0d0f7a58.js" rel="prefetch"><link href="/js/chunk-1367e479.30814255.js" rel="prefetch"><link href="/js/chunk-1ce100c7.2517f901.js" rel="prefetch"><link href="/js/chunk-1e5e1ee3.397a384b.js" rel="prefetch"><link href="/js/chunk-1ffef99d.ae1820cb.js" rel="prefetch"><link href="/js/chunk-2008f017.0841225a.js" rel="prefetch"><link href="/js/chunk-20119172.2400ebed.js" rel="prefetch"><link href="/js/chunk-2019c400.7b0e2a2f.js" rel="prefetch"><link href="/js/chunk-21f830af.99efe2d1.js" rel="prefetch"><link href="/js/chunk-22f08a41.ecc2b99e.js" rel="prefetch"><link href="/js/chunk-26f63582.c8132547.js" rel="prefetch"><link href="/js/chunk-27e72159.ef9941d3.js" rel="prefetch"><link href="/js/chunk-2d0d70ff.bc03c764.js" rel="prefetch"><link href="/js/chunk-2ddef6ba.a8fd0a77.js" rel="prefetch"><link href="/js/chunk-316fc896.b72096b6.js" rel="prefetch"><link href="/js/chunk-35297f3e.36bd4c0b.js" rel="prefetch"><link href="/js/chunk-36a680b8.835e36a4.js" rel="prefetch"><link href="/js/chunk-3a38da86.e7442164.js" rel="prefetch"><link href="/js/chunk-402de03d.27b60efe.js" rel="prefetch"><link href="/js/chunk-432d9be5.f8cbf89d.js" rel="prefetch"><link href="/js/chunk-436d24ab.c2f6a5a6.js" rel="prefetch"><link href="/js/chunk-47c5fb0a.8f9312d7.js" rel="prefetch"><link href="/js/chunk-4a8f060d.78705ee5.js" rel="prefetch"><link href="/js/chunk-4b0db3e2.04ff0c90.js" rel="prefetch"><link href="/js/chunk-4fe5c568.27c62d40.js" rel="prefetch"><link href="/js/chunk-560f6c61.629695c9.js" rel="prefetch"><link href="/js/chunk-5645bd88.d17e9a73.js" rel="prefetch"><link href="/js/chunk-56becaae.eeca6d88.js" rel="prefetch"><link href="/js/chunk-61a13aef.5cfc4a4e.js" rel="prefetch"><link href="/js/chunk-64675bdb.b2fc60da.js" rel="prefetch"><link href="/js/chunk-66e7e294.448895c9.js" rel="prefetch"><link href="/js/chunk-6b51fba4.f3ba97c7.js" rel="prefetch"><link href="/js/chunk-741d9a38.f3b636f8.js" rel="prefetch"><link href="/js/chunk-7a917452.9ab6620d.js" rel="prefetch"><link href="/js/chunk-7c982919.838e800b.js" rel="prefetch"><link href="/js/chunk-7dd41f42.7aa453fa.js" rel="prefetch"><link href="/js/chunk-a908fa92.8d099a2c.js" rel="prefetch"><link href="/js/chunk-b53c0cba.af7bfffd.js" rel="prefetch"><link href="/js/chunk-bf34a092.a501d308.js" rel="prefetch"><link href="/js/chunk-d614b20e.a4404fc2.js" rel="prefetch"><link href="/js/chunk-df9c9df6.4183d14d.js" rel="prefetch"><link href="/js/chunk-ec6522ba.875bc031.js" rel="prefetch"><link href="/js/chunk-fbd90180.022528ef.js" rel="prefetch"><link href="/css/app.bbb314a3.css" rel="preload" as="style"><link href="/css/chunk-vendors.5756b1d2.css" rel="preload" as="style"><link href="/js/app.8002dbce.js" rel="preload" as="script"><link href="/js/chunk-vendors.543fc939.js" rel="preload" as="script"><link href="/css/chunk-vendors.5756b1d2.css" rel="stylesheet"><link href="/css/app.bbb314a3.css" rel="stylesheet"><style type="text/css">.apexcharts-canvas {
+  position: relative;
+  user-select: none;
+  /* cannot give overflow: hidden as it will crop tooltips which overflow outside chart area */
+}
+
+
+/* scrollbar is not visible by default for legend, hence forcing the visibility */
+.apexcharts-canvas ::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 6px;
+}
+
+.apexcharts-canvas ::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+
+.apexcharts-inner {
+  position: relative;
+}
+
+.apexcharts-text tspan {
+  font-family: inherit;
+}
+
+.legend-mouseover-inactive {
+  transition: 0.15s ease all;
+  opacity: 0.20;
+}
+
+.apexcharts-series-collapsed {
+  opacity: 0;
+}
+
+.apexcharts-tooltip {
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px -4px #999;
+  cursor: default;
+  font-size: 14px;
+  left: 62px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  white-space: nowrap;
+  z-index: 12;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-tooltip.apexcharts-active {
+  opacity: 1;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-tooltip.apexcharts-theme-light {
+  border: 1px solid #e3e3e3;
+  background: rgba(255, 255, 255, 0.96);
+}
+
+.apexcharts-tooltip.apexcharts-theme-dark {
+  color: #fff;
+  background: rgba(30, 30, 30, 0.8);
+}
+
+.apexcharts-tooltip * {
+  font-family: inherit;
+}
+
+
+.apexcharts-tooltip-title {
+  padding: 6px;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+  background: #ECEFF1;
+  border-bottom: 1px solid #ddd;
+}
+
+.apexcharts-tooltip.apexcharts-theme-dark .apexcharts-tooltip-title {
+  background: rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid #333;
+}
+
+.apexcharts-tooltip-text-value,
+.apexcharts-tooltip-text-z-value {
+  display: inline-block;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.apexcharts-tooltip-text-z-label:empty,
+.apexcharts-tooltip-text-z-value:empty {
+  display: none;
+}
+
+.apexcharts-tooltip-text-value,
+.apexcharts-tooltip-text-z-value {
+  font-weight: 600;
+}
+
+.apexcharts-tooltip-marker {
+  width: 12px;
+  height: 12px;
+  position: relative;
+  top: 0px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.apexcharts-tooltip-series-group {
+  padding: 0 10px;
+  display: none;
+  text-align: left;
+  justify-content: left;
+  align-items: center;
+}
+
+.apexcharts-tooltip-series-group.apexcharts-active .apexcharts-tooltip-marker {
+  opacity: 1;
+}
+
+.apexcharts-tooltip-series-group.apexcharts-active,
+.apexcharts-tooltip-series-group:last-child {
+  padding-bottom: 4px;
+}
+
+.apexcharts-tooltip-series-group-hidden {
+  opacity: 0;
+  height: 0;
+  line-height: 0;
+  padding: 0 !important;
+}
+
+.apexcharts-tooltip-y-group {
+  padding: 6px 0 5px;
+}
+
+.apexcharts-tooltip-box, .apexcharts-custom-tooltip {
+  padding: 4px 8px;
+}
+
+.apexcharts-tooltip-boxPlot {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.apexcharts-tooltip-box>div {
+  margin: 4px 0;
+}
+
+.apexcharts-tooltip-box span.value {
+  font-weight: bold;
+}
+
+.apexcharts-tooltip-rangebar {
+  padding: 5px 8px;
+}
+
+.apexcharts-tooltip-rangebar .category {
+  font-weight: 600;
+  color: #777;
+}
+
+.apexcharts-tooltip-rangebar .series-name {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.apexcharts-xaxistooltip {
+  opacity: 0;
+  padding: 9px 10px;
+  pointer-events: none;
+  color: #373d3f;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 10;
+  background: #ECEFF1;
+  border: 1px solid #90A4AE;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-xaxistooltip.apexcharts-theme-dark {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.apexcharts-xaxistooltip:after,
+.apexcharts-xaxistooltip:before {
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.apexcharts-xaxistooltip:after {
+  border-color: rgba(236, 239, 241, 0);
+  border-width: 6px;
+  margin-left: -6px;
+}
+
+.apexcharts-xaxistooltip:before {
+  border-color: rgba(144, 164, 174, 0);
+  border-width: 7px;
+  margin-left: -7px;
+}
+
+.apexcharts-xaxistooltip-bottom:after,
+.apexcharts-xaxistooltip-bottom:before {
+  bottom: 100%;
+}
+
+.apexcharts-xaxistooltip-top:after,
+.apexcharts-xaxistooltip-top:before {
+  top: 100%;
+}
+
+.apexcharts-xaxistooltip-bottom:after {
+  border-bottom-color: #ECEFF1;
+}
+
+.apexcharts-xaxistooltip-bottom:before {
+  border-bottom-color: #90A4AE;
+}
+
+.apexcharts-xaxistooltip-bottom.apexcharts-theme-dark:after {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-xaxistooltip-bottom.apexcharts-theme-dark:before {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-xaxistooltip-top:after {
+  border-top-color: #ECEFF1
+}
+
+.apexcharts-xaxistooltip-top:before {
+  border-top-color: #90A4AE;
+}
+
+.apexcharts-xaxistooltip-top.apexcharts-theme-dark:after {
+  border-top-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-xaxistooltip-top.apexcharts-theme-dark:before {
+  border-top-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-xaxistooltip.apexcharts-active {
+  opacity: 1;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-yaxistooltip {
+  opacity: 0;
+  padding: 4px 10px;
+  pointer-events: none;
+  color: #373d3f;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 2px;
+  position: absolute;
+  z-index: 10;
+  background: #ECEFF1;
+  border: 1px solid #90A4AE;
+}
+
+.apexcharts-yaxistooltip.apexcharts-theme-dark {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.apexcharts-yaxistooltip:after,
+.apexcharts-yaxistooltip:before {
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.apexcharts-yaxistooltip:after {
+  border-color: rgba(236, 239, 241, 0);
+  border-width: 6px;
+  margin-top: -6px;
+}
+
+.apexcharts-yaxistooltip:before {
+  border-color: rgba(144, 164, 174, 0);
+  border-width: 7px;
+  margin-top: -7px;
+}
+
+.apexcharts-yaxistooltip-left:after,
+.apexcharts-yaxistooltip-left:before {
+  left: 100%;
+}
+
+.apexcharts-yaxistooltip-right:after,
+.apexcharts-yaxistooltip-right:before {
+  right: 100%;
+}
+
+.apexcharts-yaxistooltip-left:after {
+  border-left-color: #ECEFF1;
+}
+
+.apexcharts-yaxistooltip-left:before {
+  border-left-color: #90A4AE;
+}
+
+.apexcharts-yaxistooltip-left.apexcharts-theme-dark:after {
+  border-left-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-yaxistooltip-left.apexcharts-theme-dark:before {
+  border-left-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-yaxistooltip-right:after {
+  border-right-color: #ECEFF1;
+}
+
+.apexcharts-yaxistooltip-right:before {
+  border-right-color: #90A4AE;
+}
+
+.apexcharts-yaxistooltip-right.apexcharts-theme-dark:after {
+  border-right-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-yaxistooltip-right.apexcharts-theme-dark:before {
+  border-right-color: rgba(0, 0, 0, 0.5);
+}
+
+.apexcharts-yaxistooltip.apexcharts-active {
+  opacity: 1;
+}
+
+.apexcharts-yaxistooltip-hidden {
+  display: none;
+}
+
+.apexcharts-xcrosshairs,
+.apexcharts-ycrosshairs {
+  pointer-events: none;
+  opacity: 0;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-xcrosshairs.apexcharts-active,
+.apexcharts-ycrosshairs.apexcharts-active {
+  opacity: 1;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-ycrosshairs-hidden {
+  opacity: 0;
+}
+
+.apexcharts-selection-rect {
+  cursor: move;
+}
+
+.svg_select_boundingRect, .svg_select_points_rot {
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+}
+.apexcharts-selection-rect + g .svg_select_boundingRect,
+.apexcharts-selection-rect + g .svg_select_points_rot {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.apexcharts-selection-rect + g .svg_select_points_l,
+.apexcharts-selection-rect + g .svg_select_points_r {
+  cursor: ew-resize;
+  opacity: 1;
+  visibility: visible;
+}
+
+.svg_select_points {
+  fill: #efefef;
+  stroke: #333;
+  rx: 2;
+}
+
+.apexcharts-svg.apexcharts-zoomable.hovering-zoom {
+  cursor: crosshair
+}
+
+.apexcharts-svg.apexcharts-zoomable.hovering-pan {
+  cursor: move
+}
+
+.apexcharts-zoom-icon,
+.apexcharts-zoomin-icon,
+.apexcharts-zoomout-icon,
+.apexcharts-reset-icon,
+.apexcharts-pan-icon,
+.apexcharts-selection-icon,
+.apexcharts-menu-icon,
+.apexcharts-toolbar-custom-icon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  line-height: 24px;
+  color: #6E8192;
+  text-align: center;
+}
+
+.apexcharts-zoom-icon svg,
+.apexcharts-zoomin-icon svg,
+.apexcharts-zoomout-icon svg,
+.apexcharts-reset-icon svg,
+.apexcharts-menu-icon svg {
+  fill: #6E8192;
+}
+
+.apexcharts-selection-icon svg {
+  fill: #444;
+  transform: scale(0.76)
+}
+
+.apexcharts-theme-dark .apexcharts-zoom-icon svg,
+.apexcharts-theme-dark .apexcharts-zoomin-icon svg,
+.apexcharts-theme-dark .apexcharts-zoomout-icon svg,
+.apexcharts-theme-dark .apexcharts-reset-icon svg,
+.apexcharts-theme-dark .apexcharts-pan-icon svg,
+.apexcharts-theme-dark .apexcharts-selection-icon svg,
+.apexcharts-theme-dark .apexcharts-menu-icon svg,
+.apexcharts-theme-dark .apexcharts-toolbar-custom-icon svg {
+  fill: #f3f4f5;
+}
+
+.apexcharts-canvas .apexcharts-zoom-icon.apexcharts-selected svg,
+.apexcharts-canvas .apexcharts-selection-icon.apexcharts-selected svg,
+.apexcharts-canvas .apexcharts-reset-zoom-icon.apexcharts-selected svg {
+  fill: #008FFB;
+}
+
+.apexcharts-theme-light .apexcharts-selection-icon:not(.apexcharts-selected):hover svg,
+.apexcharts-theme-light .apexcharts-zoom-icon:not(.apexcharts-selected):hover svg,
+.apexcharts-theme-light .apexcharts-zoomin-icon:hover svg,
+.apexcharts-theme-light .apexcharts-zoomout-icon:hover svg,
+.apexcharts-theme-light .apexcharts-reset-icon:hover svg,
+.apexcharts-theme-light .apexcharts-menu-icon:hover svg {
+  fill: #333;
+}
+
+.apexcharts-selection-icon,
+.apexcharts-menu-icon {
+  position: relative;
+}
+
+.apexcharts-reset-icon {
+  margin-left: 5px;
+}
+
+.apexcharts-zoom-icon,
+.apexcharts-reset-icon,
+.apexcharts-menu-icon {
+  transform: scale(0.85);
+}
+
+.apexcharts-zoomin-icon,
+.apexcharts-zoomout-icon {
+  transform: scale(0.7)
+}
+
+.apexcharts-zoomout-icon {
+  margin-right: 3px;
+}
+
+.apexcharts-pan-icon {
+  transform: scale(0.62);
+  position: relative;
+  left: 1px;
+  top: 0px;
+}
+
+.apexcharts-pan-icon svg {
+  fill: #fff;
+  stroke: #6E8192;
+  stroke-width: 2;
+}
+
+.apexcharts-pan-icon.apexcharts-selected svg {
+  stroke: #008FFB;
+}
+
+.apexcharts-pan-icon:not(.apexcharts-selected):hover svg {
+  stroke: #333;
+}
+
+.apexcharts-toolbar {
+  position: absolute;
+  z-index: 11;
+  max-width: 176px;
+  text-align: right;
+  border-radius: 3px;
+  padding: 0px 6px 2px 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.apexcharts-menu {
+  background: #fff;
+  position: absolute;
+  top: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 3px;
+  right: 10px;
+  opacity: 0;
+  min-width: 110px;
+  transition: 0.15s ease all;
+  pointer-events: none;
+}
+
+.apexcharts-menu.apexcharts-menu-open {
+  opacity: 1;
+  pointer-events: all;
+  transition: 0.15s ease all;
+}
+
+.apexcharts-menu-item {
+  padding: 6px 7px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.apexcharts-theme-light .apexcharts-menu-item:hover {
+  background: #eee;
+}
+
+.apexcharts-theme-dark .apexcharts-menu {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .apexcharts-canvas:hover .apexcharts-toolbar {
+    opacity: 1;
+  }
+}
+
+.apexcharts-datalabel.apexcharts-element-hidden {
+  opacity: 0;
+}
+
+.apexcharts-pie-label,
+.apexcharts-datalabels,
+.apexcharts-datalabel,
+.apexcharts-datalabel-label,
+.apexcharts-datalabel-value {
+  cursor: default;
+  pointer-events: none;
+}
+
+.apexcharts-pie-label-delay {
+  opacity: 0;
+  animation-name: opaque;
+  animation-duration: 0.3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+.apexcharts-canvas .apexcharts-element-hidden {
+  opacity: 0;
+}
+
+.apexcharts-hide .apexcharts-series-points {
+  opacity: 0;
+}
+
+.apexcharts-gridline,
+.apexcharts-annotation-rect,
+.apexcharts-tooltip .apexcharts-marker,
+.apexcharts-area-series .apexcharts-area,
+.apexcharts-line,
+.apexcharts-zoom-rect,
+.apexcharts-toolbar svg,
+.apexcharts-area-series .apexcharts-series-markers .apexcharts-marker.no-pointer-events,
+.apexcharts-line-series .apexcharts-series-markers .apexcharts-marker.no-pointer-events,
+.apexcharts-radar-series path,
+.apexcharts-radar-series polygon {
+  pointer-events: none;
+}
+
+
+/* markers */
+
+.apexcharts-marker {
+  transition: 0.15s ease all;
+}
+
+@keyframes opaque {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* Resize generated styles */
+
+@keyframes resizeanim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.resize-triggers {
+  animation: 1ms resizeanim;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.resize-triggers,
+.resize-triggers>div,
+.contract-trigger:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.resize-triggers>div {
+  background: #eee;
+  overflow: auto;
+}
+
+.contract-trigger:before {
+  width: 200%;
+  height: 200%;
+}</style><script charset="utf-8" src="/js/chunk-4fe5c568.27c62d40.js"></script><script charset="utf-8" src="/js/chunk-2d0d70ff.bc03c764.js"></script><style type="text/css" id="vuetify-theme-stylesheet">.v-application a { color: #3274f2; }
+.v-application .primary {
+  background-color: #3274f2 !important;
+  border-color: #3274f2 !important;
+}
+.v-application .primary--text {
+  color: #3274f2 !important;
+  caret-color: #3274f2 !important;
+}
+.v-application .primary.lighten-5 {
+  background-color: #dcfbff !important;
+  border-color: #dcfbff !important;
+}
+.v-application .primary--text.text--lighten-5 {
+  color: #dcfbff !important;
+  caret-color: #dcfbff !important;
+}
+.v-application .primary.lighten-4 {
+  background-color: #bcdeff !important;
+  border-color: #bcdeff !important;
+}
+.v-application .primary--text.text--lighten-4 {
+  color: #bcdeff !important;
+  caret-color: #bcdeff !important;
+}
+.v-application .primary.lighten-3 {
+  background-color: #9dc2ff !important;
+  border-color: #9dc2ff !important;
+}
+.v-application .primary--text.text--lighten-3 {
+  color: #9dc2ff !important;
+  caret-color: #9dc2ff !important;
+}
+.v-application .primary.lighten-2 {
+  background-color: #7da7ff !important;
+  border-color: #7da7ff !important;
+}
+.v-application .primary--text.text--lighten-2 {
+  color: #7da7ff !important;
+  caret-color: #7da7ff !important;
+}
+.v-application .primary.lighten-1 {
+  background-color: #5b8dff !important;
+  border-color: #5b8dff !important;
+}
+.v-application .primary--text.text--lighten-1 {
+  color: #5b8dff !important;
+  caret-color: #5b8dff !important;
+}
+.v-application .primary.darken-1 {
+  background-color: #005cd5 !important;
+  border-color: #005cd5 !important;
+}
+.v-application .primary--text.text--darken-1 {
+  color: #005cd5 !important;
+  caret-color: #005cd5 !important;
+}
+.v-application .primary.darken-2 {
+  background-color: #0045b9 !important;
+  border-color: #0045b9 !important;
+}
+.v-application .primary--text.text--darken-2 {
+  color: #0045b9 !important;
+  caret-color: #0045b9 !important;
+}
+.v-application .primary.darken-3 {
+  background-color: #00309d !important;
+  border-color: #00309d !important;
+}
+.v-application .primary--text.text--darken-3 {
+  color: #00309d !important;
+  caret-color: #00309d !important;
+}
+.v-application .primary.darken-4 {
+  background-color: #001d82 !important;
+  border-color: #001d82 !important;
+}
+.v-application .primary--text.text--darken-4 {
+  color: #001d82 !important;
+  caret-color: #001d82 !important;
+}
+.v-application .secondary {
+  background-color: #0e2840 !important;
+  border-color: #0e2840 !important;
+}
+.v-application .secondary--text {
+  color: #0e2840 !important;
+  caret-color: #0e2840 !important;
+}
+.v-application .secondary.lighten-5 {
+  background-color: #8ba0bf !important;
+  border-color: #8ba0bf !important;
+}
+.v-application .secondary--text.text--lighten-5 {
+  color: #8ba0bf !important;
+  caret-color: #8ba0bf !important;
+}
+.v-application .secondary.lighten-4 {
+  background-color: #7186a4 !important;
+  border-color: #7186a4 !important;
+}
+.v-application .secondary--text.text--lighten-4 {
+  color: #7186a4 !important;
+  caret-color: #7186a4 !important;
+}
+.v-application .secondary.lighten-3 {
+  background-color: #586d89 !important;
+  border-color: #586d89 !important;
+}
+.v-application .secondary--text.text--lighten-3 {
+  color: #586d89 !important;
+  caret-color: #586d89 !important;
+}
+.v-application .secondary.lighten-2 {
+  background-color: #3f5570 !important;
+  border-color: #3f5570 !important;
+}
+.v-application .secondary--text.text--lighten-2 {
+  color: #3f5570 !important;
+  caret-color: #3f5570 !important;
+}
+.v-application .secondary.lighten-1 {
+  background-color: #273e57 !important;
+  border-color: #273e57 !important;
+}
+.v-application .secondary--text.text--lighten-1 {
+  color: #273e57 !important;
+  caret-color: #273e57 !important;
+}
+.v-application .secondary.darken-1 {
+  background-color: #00132a !important;
+  border-color: #00132a !important;
+}
+.v-application .secondary--text.text--darken-1 {
+  color: #00132a !important;
+  caret-color: #00132a !important;
+}
+.v-application .secondary.darken-2 {
+  background-color: #000017 !important;
+  border-color: #000017 !important;
+}
+.v-application .secondary--text.text--darken-2 {
+  color: #000017 !important;
+  caret-color: #000017 !important;
+}
+.v-application .secondary.darken-3 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .secondary--text.text--darken-3 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .secondary.darken-4 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .secondary--text.text--darken-4 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .accent {
+  background-color: #0e2840 !important;
+  border-color: #0e2840 !important;
+}
+.v-application .accent--text {
+  color: #0e2840 !important;
+  caret-color: #0e2840 !important;
+}
+.v-application .accent.lighten-5 {
+  background-color: #8ba0bf !important;
+  border-color: #8ba0bf !important;
+}
+.v-application .accent--text.text--lighten-5 {
+  color: #8ba0bf !important;
+  caret-color: #8ba0bf !important;
+}
+.v-application .accent.lighten-4 {
+  background-color: #7186a4 !important;
+  border-color: #7186a4 !important;
+}
+.v-application .accent--text.text--lighten-4 {
+  color: #7186a4 !important;
+  caret-color: #7186a4 !important;
+}
+.v-application .accent.lighten-3 {
+  background-color: #586d89 !important;
+  border-color: #586d89 !important;
+}
+.v-application .accent--text.text--lighten-3 {
+  color: #586d89 !important;
+  caret-color: #586d89 !important;
+}
+.v-application .accent.lighten-2 {
+  background-color: #3f5570 !important;
+  border-color: #3f5570 !important;
+}
+.v-application .accent--text.text--lighten-2 {
+  color: #3f5570 !important;
+  caret-color: #3f5570 !important;
+}
+.v-application .accent.lighten-1 {
+  background-color: #273e57 !important;
+  border-color: #273e57 !important;
+}
+.v-application .accent--text.text--lighten-1 {
+  color: #273e57 !important;
+  caret-color: #273e57 !important;
+}
+.v-application .accent.darken-1 {
+  background-color: #00132a !important;
+  border-color: #00132a !important;
+}
+.v-application .accent--text.text--darken-1 {
+  color: #00132a !important;
+  caret-color: #00132a !important;
+}
+.v-application .accent.darken-2 {
+  background-color: #000017 !important;
+  border-color: #000017 !important;
+}
+.v-application .accent--text.text--darken-2 {
+  color: #000017 !important;
+  caret-color: #000017 !important;
+}
+.v-application .accent.darken-3 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .accent--text.text--darken-3 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .accent.darken-4 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .accent--text.text--darken-4 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .error {
+  background-color: #fa0021 !important;
+  border-color: #fa0021 !important;
+}
+.v-application .error--text {
+  color: #fa0021 !important;
+  caret-color: #fa0021 !important;
+}
+.v-application .error.lighten-5 {
+  background-color: #ffbc9e !important;
+  border-color: #ffbc9e !important;
+}
+.v-application .error--text.text--lighten-5 {
+  color: #ffbc9e !important;
+  caret-color: #ffbc9e !important;
+}
+.v-application .error.lighten-4 {
+  background-color: #ff9e83 !important;
+  border-color: #ff9e83 !important;
+}
+.v-application .error--text.text--lighten-4 {
+  color: #ff9e83 !important;
+  caret-color: #ff9e83 !important;
+}
+.v-application .error.lighten-3 {
+  background-color: #ff7f6a !important;
+  border-color: #ff7f6a !important;
+}
+.v-application .error--text.text--lighten-3 {
+  color: #ff7f6a !important;
+  caret-color: #ff7f6a !important;
+}
+.v-application .error.lighten-2 {
+  background-color: #ff6051 !important;
+  border-color: #ff6051 !important;
+}
+.v-application .error--text.text--lighten-2 {
+  color: #ff6051 !important;
+  caret-color: #ff6051 !important;
+}
+.v-application .error.lighten-1 {
+  background-color: #ff3d39 !important;
+  border-color: #ff3d39 !important;
+}
+.v-application .error--text.text--lighten-1 {
+  color: #ff3d39 !important;
+  caret-color: #ff3d39 !important;
+}
+.v-application .error.darken-1 {
+  background-color: #d80008 !important;
+  border-color: #d80008 !important;
+}
+.v-application .error--text.text--darken-1 {
+  color: #d80008 !important;
+  caret-color: #d80008 !important;
+}
+.v-application .error.darken-2 {
+  background-color: #b70000 !important;
+  border-color: #b70000 !important;
+}
+.v-application .error--text.text--darken-2 {
+  color: #b70000 !important;
+  caret-color: #b70000 !important;
+}
+.v-application .error.darken-3 {
+  background-color: #970000 !important;
+  border-color: #970000 !important;
+}
+.v-application .error--text.text--darken-3 {
+  color: #970000 !important;
+  caret-color: #970000 !important;
+}
+.v-application .error.darken-4 {
+  background-color: #790000 !important;
+  border-color: #790000 !important;
+}
+.v-application .error--text.text--darken-4 {
+  color: #790000 !important;
+  caret-color: #790000 !important;
+}
+.v-application .info {
+  background-color: #2196f3 !important;
+  border-color: #2196f3 !important;
+}
+.v-application .info--text {
+  color: #2196f3 !important;
+  caret-color: #2196f3 !important;
+}
+.v-application .info.lighten-5 {
+  background-color: #d4ffff !important;
+  border-color: #d4ffff !important;
+}
+.v-application .info--text.text--lighten-5 {
+  color: #d4ffff !important;
+  caret-color: #d4ffff !important;
+}
+.v-application .info.lighten-4 {
+  background-color: #b5ffff !important;
+  border-color: #b5ffff !important;
+}
+.v-application .info--text.text--lighten-4 {
+  color: #b5ffff !important;
+  caret-color: #b5ffff !important;
+}
+.v-application .info.lighten-3 {
+  background-color: #95e8ff !important;
+  border-color: #95e8ff !important;
+}
+.v-application .info--text.text--lighten-3 {
+  color: #95e8ff !important;
+  caret-color: #95e8ff !important;
+}
+.v-application .info.lighten-2 {
+  background-color: #75ccff !important;
+  border-color: #75ccff !important;
+}
+.v-application .info--text.text--lighten-2 {
+  color: #75ccff !important;
+  caret-color: #75ccff !important;
+}
+.v-application .info.lighten-1 {
+  background-color: #51b0ff !important;
+  border-color: #51b0ff !important;
+}
+.v-application .info--text.text--lighten-1 {
+  color: #51b0ff !important;
+  caret-color: #51b0ff !important;
+}
+.v-application .info.darken-1 {
+  background-color: #007cd6 !important;
+  border-color: #007cd6 !important;
+}
+.v-application .info--text.text--darken-1 {
+  color: #007cd6 !important;
+  caret-color: #007cd6 !important;
+}
+.v-application .info.darken-2 {
+  background-color: #0064ba !important;
+  border-color: #0064ba !important;
+}
+.v-application .info--text.text--darken-2 {
+  color: #0064ba !important;
+  caret-color: #0064ba !important;
+}
+.v-application .info.darken-3 {
+  background-color: #004d9f !important;
+  border-color: #004d9f !important;
+}
+.v-application .info--text.text--darken-3 {
+  color: #004d9f !important;
+  caret-color: #004d9f !important;
+}
+.v-application .info.darken-4 {
+  background-color: #003784 !important;
+  border-color: #003784 !important;
+}
+.v-application .info--text.text--darken-4 {
+  color: #003784 !important;
+  caret-color: #003784 !important;
+}
+.v-application .success {
+  background-color: #4caf50 !important;
+  border-color: #4caf50 !important;
+}
+.v-application .success--text {
+  color: #4caf50 !important;
+  caret-color: #4caf50 !important;
+}
+.v-application .success.lighten-5 {
+  background-color: #dcffd6 !important;
+  border-color: #dcffd6 !important;
+}
+.v-application .success--text.text--lighten-5 {
+  color: #dcffd6 !important;
+  caret-color: #dcffd6 !important;
+}
+.v-application .success.lighten-4 {
+  background-color: #beffba !important;
+  border-color: #beffba !important;
+}
+.v-application .success--text.text--lighten-4 {
+  color: #beffba !important;
+  caret-color: #beffba !important;
+}
+.v-application .success.lighten-3 {
+  background-color: #a2ff9e !important;
+  border-color: #a2ff9e !important;
+}
+.v-application .success--text.text--lighten-3 {
+  color: #a2ff9e !important;
+  caret-color: #a2ff9e !important;
+}
+.v-application .success.lighten-2 {
+  background-color: #85e783 !important;
+  border-color: #85e783 !important;
+}
+.v-application .success--text.text--lighten-2 {
+  color: #85e783 !important;
+  caret-color: #85e783 !important;
+}
+.v-application .success.lighten-1 {
+  background-color: #69cb69 !important;
+  border-color: #69cb69 !important;
+}
+.v-application .success--text.text--lighten-1 {
+  color: #69cb69 !important;
+  caret-color: #69cb69 !important;
+}
+.v-application .success.darken-1 {
+  background-color: #2d9437 !important;
+  border-color: #2d9437 !important;
+}
+.v-application .success--text.text--darken-1 {
+  color: #2d9437 !important;
+  caret-color: #2d9437 !important;
+}
+.v-application .success.darken-2 {
+  background-color: #00791e !important;
+  border-color: #00791e !important;
+}
+.v-application .success--text.text--darken-2 {
+  color: #00791e !important;
+  caret-color: #00791e !important;
+}
+.v-application .success.darken-3 {
+  background-color: #006000 !important;
+  border-color: #006000 !important;
+}
+.v-application .success--text.text--darken-3 {
+  color: #006000 !important;
+  caret-color: #006000 !important;
+}
+.v-application .success.darken-4 {
+  background-color: #004700 !important;
+  border-color: #004700 !important;
+}
+.v-application .success--text.text--darken-4 {
+  color: #004700 !important;
+  caret-color: #004700 !important;
+}
+.v-application .warning {
+  background-color: #fb8c00 !important;
+  border-color: #fb8c00 !important;
+}
+.v-application .warning--text {
+  color: #fb8c00 !important;
+  caret-color: #fb8c00 !important;
+}
+.v-application .warning.lighten-5 {
+  background-color: #ffff9e !important;
+  border-color: #ffff9e !important;
+}
+.v-application .warning--text.text--lighten-5 {
+  color: #ffff9e !important;
+  caret-color: #ffff9e !important;
+}
+.v-application .warning.lighten-4 {
+  background-color: #fffb82 !important;
+  border-color: #fffb82 !important;
+}
+.v-application .warning--text.text--lighten-4 {
+  color: #fffb82 !important;
+  caret-color: #fffb82 !important;
+}
+.v-application .warning.lighten-3 {
+  background-color: #ffdf67 !important;
+  border-color: #ffdf67 !important;
+}
+.v-application .warning--text.text--lighten-3 {
+  color: #ffdf67 !important;
+  caret-color: #ffdf67 !important;
+}
+.v-application .warning.lighten-2 {
+  background-color: #ffc24b !important;
+  border-color: #ffc24b !important;
+}
+.v-application .warning--text.text--lighten-2 {
+  color: #ffc24b !important;
+  caret-color: #ffc24b !important;
+}
+.v-application .warning.lighten-1 {
+  background-color: #ffa72d !important;
+  border-color: #ffa72d !important;
+}
+.v-application .warning--text.text--lighten-1 {
+  color: #ffa72d !important;
+  caret-color: #ffa72d !important;
+}
+.v-application .warning.darken-1 {
+  background-color: #db7200 !important;
+  border-color: #db7200 !important;
+}
+.v-application .warning--text.text--darken-1 {
+  color: #db7200 !important;
+  caret-color: #db7200 !important;
+}
+.v-application .warning.darken-2 {
+  background-color: #bb5900 !important;
+  border-color: #bb5900 !important;
+}
+.v-application .warning--text.text--darken-2 {
+  color: #bb5900 !important;
+  caret-color: #bb5900 !important;
+}
+.v-application .warning.darken-3 {
+  background-color: #9d4000 !important;
+  border-color: #9d4000 !important;
+}
+.v-application .warning--text.text--darken-3 {
+  color: #9d4000 !important;
+  caret-color: #9d4000 !important;
+}
+.v-application .warning.darken-4 {
+  background-color: #802700 !important;
+  border-color: #802700 !important;
+}
+.v-application .warning--text.text--darken-4 {
+  color: #802700 !important;
+  caret-color: #802700 !important;
+}
+.v-application .background {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .background--text {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .background.lighten-5 {
+  background-color: #777777 !important;
+  border-color: #777777 !important;
+}
+.v-application .background--text.text--lighten-5 {
+  color: #777777 !important;
+  caret-color: #777777 !important;
+}
+.v-application .background.lighten-4 {
+  background-color: #5e5e5e !important;
+  border-color: #5e5e5e !important;
+}
+.v-application .background--text.text--lighten-4 {
+  color: #5e5e5e !important;
+  caret-color: #5e5e5e !important;
+}
+.v-application .background.lighten-3 {
+  background-color: #474747 !important;
+  border-color: #474747 !important;
+}
+.v-application .background--text.text--lighten-3 {
+  color: #474747 !important;
+  caret-color: #474747 !important;
+}
+.v-application .background.lighten-2 {
+  background-color: #303030 !important;
+  border-color: #303030 !important;
+}
+.v-application .background--text.text--lighten-2 {
+  color: #303030 !important;
+  caret-color: #303030 !important;
+}
+.v-application .background.lighten-1 {
+  background-color: #1b1b1b !important;
+  border-color: #1b1b1b !important;
+}
+.v-application .background--text.text--lighten-1 {
+  color: #1b1b1b !important;
+  caret-color: #1b1b1b !important;
+}
+.v-application .background.darken-1 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .background--text.text--darken-1 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .background.darken-2 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .background--text.text--darken-2 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .background.darken-3 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .background--text.text--darken-3 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .background.darken-4 {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+.v-application .background--text.text--darken-4 {
+  color: #000000 !important;
+  caret-color: #000000 !important;
+}
+.v-application .gray {
+  background-color: #f5f5f5 !important;
+  border-color: #f5f5f5 !important;
+}
+.v-application .gray--text {
+  color: #f5f5f5 !important;
+  caret-color: #f5f5f5 !important;
+}
+.v-application .gray.lighten-5 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .gray--text.text--lighten-5 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .gray.lighten-4 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .gray--text.text--lighten-4 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .gray.lighten-3 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .gray--text.text--lighten-3 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .gray.lighten-2 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .gray--text.text--lighten-2 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .gray.lighten-1 {
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.v-application .gray--text.text--lighten-1 {
+  color: #ffffff !important;
+  caret-color: #ffffff !important;
+}
+.v-application .gray.darken-1 {
+  background-color: #d9d9d9 !important;
+  border-color: #d9d9d9 !important;
+}
+.v-application .gray--text.text--darken-1 {
+  color: #d9d9d9 !important;
+  caret-color: #d9d9d9 !important;
+}
+.v-application .gray.darken-2 {
+  background-color: #bdbdbd !important;
+  border-color: #bdbdbd !important;
+}
+.v-application .gray--text.text--darken-2 {
+  color: #bdbdbd !important;
+  caret-color: #bdbdbd !important;
+}
+.v-application .gray.darken-3 {
+  background-color: #a2a2a2 !important;
+  border-color: #a2a2a2 !important;
+}
+.v-application .gray--text.text--darken-3 {
+  color: #a2a2a2 !important;
+  caret-color: #a2a2a2 !important;
+}
+.v-application .gray.darken-4 {
+  background-color: #888888 !important;
+  border-color: #888888 !important;
+}
+.v-application .gray--text.text--darken-4 {
+  color: #888888 !important;
+  caret-color: #888888 !important;
+}
+.v-application .indigo {
+  background-color: #03e3f4 !important;
+  border-color: #03e3f4 !important;
+}
+.v-application .indigo--text {
+  color: #03e3f4 !important;
+  caret-color: #03e3f4 !important;
+}
+.v-application .indigo.lighten-5 {
+  background-color: #d8ffff !important;
+  border-color: #d8ffff !important;
+}
+.v-application .indigo--text.text--lighten-5 {
+  color: #d8ffff !important;
+  caret-color: #d8ffff !important;
+}
+.v-application .indigo.lighten-4 {
+  background-color: #b8ffff !important;
+  border-color: #b8ffff !important;
+}
+.v-application .indigo--text.text--lighten-4 {
+  color: #b8ffff !important;
+  caret-color: #b8ffff !important;
+}
+.v-application .indigo.lighten-3 {
+  background-color: #97ffff !important;
+  border-color: #97ffff !important;
+}
+.v-application .indigo--text.text--lighten-3 {
+  color: #97ffff !important;
+  caret-color: #97ffff !important;
+}
+.v-application .indigo.lighten-2 {
+  background-color: #74ffff !important;
+  border-color: #74ffff !important;
+}
+.v-application .indigo--text.text--lighten-2 {
+  color: #74ffff !important;
+  caret-color: #74ffff !important;
+}
+.v-application .indigo.lighten-1 {
+  background-color: #4dffff !important;
+  border-color: #4dffff !important;
+}
+.v-application .indigo--text.text--lighten-1 {
+  color: #4dffff !important;
+  caret-color: #4dffff !important;
+}
+.v-application .indigo.darken-1 {
+  background-color: #00c7d8 !important;
+  border-color: #00c7d8 !important;
+}
+.v-application .indigo--text.text--darken-1 {
+  color: #00c7d8 !important;
+  caret-color: #00c7d8 !important;
+}
+.v-application .indigo.darken-2 {
+  background-color: #00abbc !important;
+  border-color: #00abbc !important;
+}
+.v-application .indigo--text.text--darken-2 {
+  color: #00abbc !important;
+  caret-color: #00abbc !important;
+}
+.v-application .indigo.darken-3 {
+  background-color: #0090a1 !important;
+  border-color: #0090a1 !important;
+}
+.v-application .indigo--text.text--darken-3 {
+  color: #0090a1 !important;
+  caret-color: #0090a1 !important;
+}
+.v-application .indigo.darken-4 {
+  background-color: #007687 !important;
+  border-color: #007687 !important;
+}
+.v-application .indigo--text.text--darken-4 {
+  color: #007687 !important;
+  caret-color: #007687 !important;
+}</style><link rel="stylesheet" type="text/css" href="/css/chunk-df9c9df6.8705c718.css"><script charset="utf-8" src="/js/chunk-df9c9df6.4183d14d.js"></script><link rel="stylesheet" type="text/css" href="/css/chunk-47c5fb0a.34cdef27.css"><script charset="utf-8" src="/js/chunk-47c5fb0a.8f9312d7.js"></script><script charset="utf-8" src="/js/chunk-316fc896.b72096b6.js"></script><script charset="utf-8" src="/js/chunk-35297f3e.36bd4c0b.js"></script><link rel="stylesheet" type="text/css" href="/css/chunk-56becaae.8d277f3d.css"><script charset="utf-8" src="/js/chunk-56becaae.eeca6d88.js"></script><link rel="stylesheet" type="text/css" href="/css/chunk-ec6522ba.eb052a1b.css"><script charset="utf-8" src="/js/chunk-ec6522ba.875bc031.js"></script><link rel="stylesheet" type="text/css" href="/css/chunk-4b0db3e2.7395fb49.css"><script charset="utf-8" src="/js/chunk-4b0db3e2.04ff0c90.js"></script></head><body style="background: #f5f5f5;" wfd-invisible="true"><noscript><strong>We're sorry but noah-web doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div data-app="true" class="v-application v-application--is-ltr theme--light" id="app"><div class="v-application--wrap"><div data-app="true" class="v-application v-application--is-ltr theme--light" id="app" style="background: rgb(245, 245, 245);"><div class="v-application--wrap"><div><header class="v-sheet theme--light elevation-0 v-toolbar v-app-bar v-app-bar--fixed v-app-bar--is-scrolled primary" data-booted="true" style="height: 64px; margin-top: 0px; transform: translateY(0px); left: 256px; right: 0px;"><div class="v-toolbar__content" style="height: 64px;"><button type="button" class="v-app-bar__nav-icon ma-0 v-btn v-btn--icon v-btn--round theme--light v-size--default white--text" color="white"><span class="v-btn__content"><span aria-hidden="true" class="v-icon notranslate theme--light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z"></path></svg></span></span></button><div class="spacer"></div><div class="v-menu" wfd-invisible="true"><!----></div><button type="button" class="text-none v-btn v-btn--has-bg theme--dark v-size--default primary" role="button" aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"><div class="v-avatar mr-4 gray" style="height: 30px; min-width: 30px; width: 30px;"><span class="black--text">PT</span></div> Prueba Tecnica <i aria-hidden="true" class="v-icon notranslate ml-2 mdi mdi-chevron-down theme--dark white--text"></i></span></button></div></header><nav class="v-navigation-drawer v-navigation-drawer--fixed v-navigation-drawer--floating v-navigation-drawer--open theme--light" data-booted="true" style="height: 100vh; top: 0px; max-height: calc(100% - 0px); transform: translateX(0%); width: 256px;"><div class="v-navigation-drawer__prepend"><div><header class="v-sheet theme--light elevation-0 v-toolbar v-toolbar--prominent gray" style="height: 64px;"><div class="v-toolbar__content" style="height: 64px;"><div class="v-image v-responsive theme--light"><div class="v-responsive__sizer" style="padding-bottom: 19.6667%;"></div><div class="v-image__image v-image__image--cover" style="background-image: url(&quot;http://cloud.activeone.co:4000/img/logo.f63ade79.svg&quot;); background-position: center center;"></div><div class="v-responsive__content" style="width: 300px;"></div></div></div></header></div></div><div class="v-navigation-drawer__content"><div class="v-list noah-list noah-list--rounded px-2 v-sheet theme--light v-list--dense"><div><!----><div class="v-list-group"><div tabindex="0" aria-expanded="false" role="button" class="v-list-group__header v-list-item v-list-item--link theme--light"><div class="v-list-item__icon v-list-group__header__prepend-icon"><i aria-hidden="true" class="v-icon notranslate mdi mdi-view-dashboard theme--light"></i></div><div class="v-list-item__title">Dashboard</div><div class="v-list-item__icon v-list-group__header__append-icon"><span aria-hidden="true" class="v-icon notranslate theme--light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"></path></svg></span></div></div><!----></div></div><div><!----><div class="v-list-group"><div tabindex="0" aria-expanded="false" role="button" class="v-list-group__header v-list-item v-list-item--link theme--light"><div class="v-list-item__icon v-list-group__header__prepend-icon"><i aria-hidden="true" class="v-icon notranslate mdi mdi-notebook theme--light"></i></div><div class="v-list-item__title">Catálogo</div><div class="v-list-item__icon v-list-group__header__append-icon"><span aria-hidden="true" class="v-icon notranslate theme--light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"></path></svg></span></div></div><!----></div></div><div><!----><div class="v-list-group"><div tabindex="0" aria-expanded="false" role="button" class="v-list-group__header v-list-item v-list-item--link theme--light"><div class="v-list-item__icon v-list-group__header__prepend-icon"><i aria-hidden="true" class="v-icon notranslate mdi mdi-tune theme--light"></i></div><div class="v-list-item__title">Configuración</div><div class="v-list-item__icon v-list-group__header__append-icon"><span aria-hidden="true" class="v-icon notranslate theme--light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"></path></svg></span></div></div><!----></div></div><div><a href="/terceros" class="v-list-item v-list-item--link theme--light" tabindex="0"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate mdi mdi-account-group theme--light"></i></div><div class="v-list-item__title">Terceros</div></a><!----></div><div><a href="/mascotas" class="v-list-item v-list-item--link theme--light" tabindex="0"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate mdi mdi-paw theme--light"></i></div><div class="v-list-item__title">Mascotas</div></a><!----></div><div><a href="/consumos" class="v-list-item v-list-item--link theme--light" tabindex="0"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate mdi mdi-cash-register theme--light"></i></div><div class="v-list-item__title">Consumos</div></a><!----></div><div><!----><div class="v-list-group v-list-group--active primary--text"><div tabindex="0" aria-expanded="true" role="button" class="v-list-group__header v-list-item v-list-item--active v-list-item--link theme--light"><div class="v-list-item__icon v-list-group__header__prepend-icon"><i aria-hidden="true" class="v-icon notranslate mdi mdi-cart-arrow-down theme--light"></i></div><div class="v-list-item__title">Transacciones</div><div class="v-list-item__icon v-list-group__header__append-icon"><span aria-hidden="true" class="v-icon notranslate theme--light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"></path></svg></span></div></div><div class="v-list-group__items"><a href="/ingresos/facturas-venta" class="v-list-item v-list-item--link theme--light" tabindex="0"><div class="v-list-item__title">Facturas de venta</div></a><a href="/ingresos/notas-credito" class="v-list-item v-list-item--link theme--light" tabindex="0"><div class="v-list-item__title">Notas credito</div></a><a href="/ingresos/remisiones" aria-current="page" class="noah-active v-list-item--active v-list-item v-list-item--link theme--light" tabindex="0"><div class="v-list-item__title">Remisiones</div></a><a href="/ingresos/recibos-caja" class="v-list-item v-list-item--link theme--light" tabindex="0"><div class="v-list-item__title">Recibos de caja</div></a></div></div></div><div><a href="/eventos" class="v-list-item v-list-item--link theme--light" tabindex="0"><div class="v-list-item__icon"><i aria-hidden="true" class="v-icon notranslate mdi mdi-calendar-clock theme--light"></i></div><div class="v-list-item__title">Eventos genéricos</div></a><!----></div></div></div><div class="v-navigation-drawer__border"></div></nav></div><main class="v-main" data-booted="true" style="padding: 64px 0px 0px 256px;"><div class="v-main__wrap"><div class="container pa-0 container--fluid"><div class="noah-header"><div class="noah-bar"><div class="noah-bar__logo"></div><div class="noah-bar__line"></div></div><div><div class="d-flex flex-wrap mb-3"><h3 class="white--text mr-2 font-weight-medium"> Nueva Remisión |</h3><ul class="v-breadcrumbs noah-breadcrumbs ma-0 pa-0 theme--light"><li><a href="/ingresos/remisiones" class="v-breadcrumbs__item">Remisiones</a></li><li class="v-breadcrumbs__divider">&gt;&gt;</li><li><div class="v-breadcrumbs__item v-breadcrumbs__item--disabled"> Nueva Remisión</div></li></ul></div><!----><div class="row"><div class="col-12"><div class="rounded-xl v-card v-sheet theme--light elevation-0"><div><div class="d-flex flex-wrap px-6 py-2 document-header"><div class="col-12 col-md-4 d-flex align-center"><!----></div><div class="col-12 col-md-4 text-center"><h4>GRUPO ICHI SAS.</h4><div class="text-body-2">NIT 901153048-8</div><div class="text-body-2">Calle 20 No 40</div><div class="text-body-2">300400500</div></div><div class="col-12 col-md-4 text-right"><h4>No: R-41</h4><!----></div></div></div><div class="pa-6"><span><div class="row"><div class="col-12 col-md-6 pb-0"><span><div class="v-input compact-form v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select v-autocomplete"><div class="v-input__control"><div role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-owns="list-312" class="v-input__slot"><fieldset aria-hidden="true"><legend style="width: 123.75px;"><span>​</span></legend></fieldset><div class="v-select__slot"><label for="input-312" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;">Tipo de documento</label><input id="input-312" type="text" autocomplete="off"><div class="v-input__append-inner"><div class="v-input__icon v-input__icon--clear"><button type="button" aria-label="clear icon" class="v-icon notranslate v-icon--link theme--light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path></svg></button></div></div><div class="v-input__append-inner"><div class="v-input__icon v-input__icon--append"><span aria-hidden="true" class="v-icon notranslate theme--light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M7,10L12,15L17,10H7Z"></path></svg></span></div></div><input type="hidden" value="4" wfd-invisible="true"></div><div class="v-menu" wfd-invisible="true"></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div></span></div></div><div class="row"><div class="col-12 col-md-6 pt-0 pb-0"><span><div class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select v-autocomplete"><div class="v-input__control"><div role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-owns="list-319" class="v-input__slot"><fieldset aria-hidden="true"><legend style="width: 48px;"><span>​</span></legend></fieldset><div class="v-select__slot"><label for="input-319" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;">Cliente</label><input id="input-319" type="text" autocomplete="off"><div class="v-input__append-inner"><div class="v-input__icon v-input__icon--clear"><button type="button" aria-label="clear icon" class="v-icon notranslate v-icon--link theme--light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path></svg></button></div></div><div class="v-input__append-inner"><div class="v-input__icon v-input__icon--append"><span aria-hidden="true" class="v-icon notranslate theme--light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M7,10L12,15L17,10H7Z"></path></svg></span></div></div><input type="hidden" wfd-invisible="true" value="[object Object]"></div><div class="v-menu" wfd-invisible="true"></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div></span></div><div class="col-12 col-md-6 pt-0 pb-0"><span><div><div class="v-input v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"><div class="v-input__control"><div class="v-input__slot"><fieldset aria-hidden="true"><legend style="width: 42.75px;"><span>​</span></legend></fieldset><div class="v-text-field__slot"><label for="input-328" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;">Fecha</label><input role="button" aria-haspopup="true" aria-expanded="false" id="input-328" readonly="readonly" type="text"></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div><div class="v-menu" wfd-invisible="true"><!----></div></div></span></div></div><div class="row"><div class="col-12 col-md-6 pt-0 pb-0"><span><div class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select v-autocomplete"><div class="v-input__control"><div role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-owns="list-332" class="v-input__slot"><fieldset aria-hidden="true"><legend style="width: 98.25px;"><span>​</span></legend></fieldset><div class="v-select__slot"><label for="input-332" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;">Forma de pago</label><input id="input-332" type="text" autocomplete="off"><div class="v-input__append-inner"><div class="v-input__icon v-input__icon--clear"><button type="button" aria-label="clear icon" class="v-icon notranslate v-icon--link theme--light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path></svg></button></div></div><div class="v-input__append-inner"><div class="v-input__icon v-input__icon--append"><span aria-hidden="true" class="v-icon notranslate theme--light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M7,10L12,15L17,10H7Z"></path></svg></span></div></div><input type="hidden" value="1" wfd-invisible="true"></div><div class="v-menu" wfd-invisible="true"></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div></span></div><div class="col-12 col-md-6 pt-0 pb-0"><span><div><div class="v-input v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"><div class="v-input__control"><div class="v-input__slot"><fieldset aria-hidden="true"><legend style="width: 139.5px;"><span>​</span></legend></fieldset><div class="v-text-field__slot"><label for="input-341" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;">Fecha de vencimiento</label><input role="button" aria-haspopup="true" aria-expanded="false" id="input-341" readonly="readonly" type="text"></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div><div class="v-menu" wfd-invisible="true"><!----></div></div></span></div></div><div class="row"><div class="col-12 pt-0"><span><div class="v-input v-textarea v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"><div class="v-input__control"><div class="v-input__slot"><fieldset aria-hidden="true"><legend style="width: 41.25px;"><span>​</span></legend></fieldset><div class="v-text-field__slot"><label for="input-345" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;">Notas</label><textarea id="input-345" rows="3"></textarea></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div></span></div></div><div><h4 class="mb-3">Productos / Servicios</h4><div><div class="grid gap-4 grid-cols-6"><div><span><div class="v-input v-input--is-label-active v-input--is-dirty v-input--is-focused v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select v-select--is-menu-active v-autocomplete primary--text"><div class="v-input__control"><div role="combobox" aria-haspopup="listbox" aria-expanded="true" aria-owns="list-413" class="v-input__slot"><fieldset aria-hidden="true"><legend style="width: 61.5px;"><span>​</span></legend></fieldset><div class="v-select__slot"><label for="input-413" class="v-label v-label--active theme--light primary--text" style="left: 0px; right: auto; position: absolute;">Producto</label><input id="input-413" type="text" autocomplete="off" aria-activedescendant="list-item-446-0"><div class="v-input__append-inner"><div class="v-input__icon v-input__icon--clear"><button type="button" aria-label="clear icon" class="v-icon notranslate v-icon--link theme--light primary--text"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path></svg></button></div></div><div class="v-input__append-inner"><div class="v-input__icon v-input__icon--append"><span aria-hidden="true" class="v-icon notranslate theme--light primary--text"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M7,10L12,15L17,10H7Z"></path></svg></span></div></div><input type="hidden"></div><div class="v-menu"></div></div><div class="v-text-field__details"><div class="v-messages theme--light primary--text"><div class="v-messages__wrapper"></div></div></div></div></div></span></div><!----><!----><div><span><div class="v-input v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"><div class="v-input__control"><div class="v-input__slot"><fieldset aria-hidden="true"><legend style="width: 43.5px;"><span>​</span></legend></fieldset><div class="v-text-field__slot"><label for="input-420" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;">Precio</label><input id="input-420" readonly="readonly" type="number"></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div></span></div><div><div><span><div class="v-input v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined v-select v-autocomplete"><div class="v-input__control"><div role="combobox" aria-haspopup="listbox" aria-expanded="false" aria-owns="list-424" class="v-input__slot"><fieldset aria-hidden="true"><legend style="width: 0px;"><span>​</span></legend></fieldset><div class="v-select__slot"><label for="input-424" class="v-label theme--light" style="left: 0px; right: auto; position: absolute;">Tipo de descuento</label><input id="input-424" type="text" autocomplete="off"><div class="v-input__append-inner"><div class="v-input__icon v-input__icon--clear"><button disabled="disabled" type="button" aria-label="clear icon" class="v-icon notranslate v-icon--disabled v-icon--link theme--light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path></svg></button></div></div><div class="v-input__append-inner"><div class="v-input__icon v-input__icon--append"><span aria-hidden="true" class="v-icon notranslate theme--light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true" class="v-icon__svg"><path d="M7,10L12,15L17,10H7Z"></path></svg></span></div></div><input type="hidden"></div><div class="v-menu"><!----></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div></span></div><!----></div><div><span><div class="v-input v-input--is-label-active v-input--is-dirty v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"><div class="v-input__control"><div class="v-input__slot"><fieldset aria-hidden="true"><legend style="width: 61.5px;"><span>​</span></legend></fieldset><div class="v-text-field__slot"><label for="input-431" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;">Cantidad</label><input id="input-431" type="number"></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div></span></div><div><span><div class="v-input v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"><div class="v-input__control"><div class="v-input__slot"><fieldset aria-hidden="true"><legend style="width: 63.75px;"><span>​</span></legend></fieldset><div class="v-text-field__slot"><label for="input-435" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;">Impuesto</label><input id="input-435" readonly="readonly" type="text"></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div></span></div><div><div class="d-flex"><div class="v-input mr-2 v-input--is-label-active v-input--is-dirty v-input--is-readonly v-input--dense theme--light v-text-field v-text-field--is-booted v-text-field--enclosed v-text-field--outlined"><div class="v-input__control"><div class="v-input__slot"><fieldset aria-hidden="true"><legend style="width: 35.25px;"><span>​</span></legend></fieldset><div class="v-text-field__slot"><label for="input-438" class="v-label v-label--active theme--light" style="left: 0px; right: auto; position: absolute;">Total</label><input id="input-438" readonly="readonly" type="text"></div></div><div class="v-text-field__details"><div class="v-messages theme--light"><div class="v-messages__wrapper"></div></div></div></div></div><button type="button" class="mx-1 v-btn v-btn--fab v-btn--has-bg v-btn--round theme--dark elevation-0 v-size--x-small error"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-delete theme--dark"></i></span></button></div></div></div></div><div class="row d-flex"><div class="col-12"><button type="button" class="text-none mr-2 mb-2 v-btn v-btn--has-bg v-btn--rounded theme--dark elevation-0 v-size--small secondary"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mr-2 mdi mdi-cart theme--dark" style="font-size: 16px;"></i> Agregar servicio </span></button><button type="button" class="text-none mr-2 mb-2 v-btn v-btn--has-bg v-btn--rounded theme--dark elevation-0 v-size--small secondary"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mr-2 mdi mdi-cart theme--dark" style="font-size: 16px;"></i> Agregar producto </span></button><button type="button" class="text-none mr-2 mb-2 v-btn v-btn--has-bg v-btn--rounded theme--dark elevation-0 v-size--small secondary"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mr-2 mdi mdi-ticket-confirmation theme--dark" style="font-size: 16px;"></i> Agregar plan </span></button><button type="button" class="text-none mr-2 mb-2 v-btn v-btn--has-bg v-btn--rounded theme--dark elevation-0 v-size--small primary"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mr-2 mdi mdi-cart theme--dark" style="font-size: 16px;"></i> Agregar ordenes </span></button></div></div><div class="d-flex flex-wrap justify-end my-5"><table><tr><td><span>Subtotal: </span></td><td class="text-right"><span class="text-none font-weight-bold">$ 0,00</span></td></tr><tr><td><span>Descuentos(-): </span></td><td class="text-right"><span class="text-none font-weight-bold">$ 0,00</span></td></tr><tr><td><span>Total IVA: </span></td><td class="text-right"><span class="text-none font-weight-bold">$ 0,00</span></td></tr><tr><td><span class="font-weight-bold">Total: </span></td><td class="text-right"><span class="font-weight-bold">$ 0,00</span></td></tr></table></div><div class="row justify-center"><div role="dialog" class="v-dialog__container" wfd-invisible="true"><!----></div></div></div></span><div class="d-flex flex-wrap justify-end mt-5"><button type="button" class="text-none v-btn v-btn--has-bg v-btn--rounded theme--dark elevation-0 v-size--default primary" role="button" aria-haspopup="true" aria-expanded="false"><span class="v-btn__content"> Guardar </span></button><div class="v-menu" wfd-invisible="true"><!----></div></div></div></div></div></div><!----><!----></div></div></div></div></main></div></div><div class="v-snack v-snack--bottom v-snack--has-background" style="padding-bottom: 0px; padding-top: 64px;"><div class="v-snack__wrapper v-sheet theme--dark info" wfd-invisible="true" style="display: none;"><div role="status" aria-live="polite" class="v-snack__content">  </div><div class="v-snack__action "><button type="button" class="v-btn v-btn--icon v-btn--round theme--dark v-size--default v-snack__btn"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-close theme--dark"></i></span></button></div></div></div><div class="v-overlay theme--dark" style="z-index: 5;"><div class="v-overlay__scrim" style="opacity: 0; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255);"></div></div><div class="v-overlay theme--dark" style="z-index: 500;"><div class="v-overlay__scrim" style="opacity: 0; background-color: rgb(255, 255, 255); border-color: rgb(255, 255, 255);"></div></div></div><div class="v-menu__content theme--light v-autocomplete__content" style="max-height: 304px; min-width: 486px; top: 430px; left: 310px; transform-origin: left top; z-index: 8; display: none;"><div role="listbox" tabindex="-1" class="v-list v-select-list v-sheet theme--light v-list--dense theme--light" id="list-312"><div tabindex="0" class="v-list-item primary--text v-list-item--active v-list-item--link theme--light" aria-selected="true" id="list-item-395-0" role="option"><div class="v-list-item__content"><div class="v-list-item__title">R</div></div></div></div></div><div class="v-menu__content theme--light v-autocomplete__content" style="max-height: 304px; min-width: 486px; top: 488px; left: 310px; transform-origin: left top; z-index: 8; display: none;"><div role="listbox" tabindex="-1" class="v-list v-select-list v-sheet theme--light v-list--dense theme--light" id="list-319"><div tabindex="0" aria-selected="true" id="list-item-401-0" role="option" class="v-list-item primary--text v-list-item--active v-list-item--link theme--light"><div class="v-list-item__content"><div class="v-list-item__title">1128277543 - Juan Jaramillo</div></div></div></div></div><div class="v-menu__content theme--light v-autocomplete__content" style="max-height: 304px; min-width: 486px; top: 417px; left: 310px; transform-origin: left top; z-index: 8; display: none;"><div role="listbox" tabindex="-1" class="v-list v-select-list v-sheet theme--light v-list--dense theme--light" id="list-332"><div tabindex="0" aria-selected="true" id="list-item-405-0" role="option" class="v-list-item primary--text v-list-item--active v-list-item--link theme--light"><div class="v-list-item__content"><div class="v-list-item__title">Contado</div></div></div><div tabindex="0" aria-selected="false" id="list-item-405-1" role="option" class="v-list-item v-list-item--link theme--light"><div class="v-list-item__content"><div class="v-list-item__title">Crédito</div></div></div></div></div><div class="v-menu__content theme--light menuable__content__active v-autocomplete__content" style="max-height: 304px; min-width: 153px; top: 756px; left: 310px; transform-origin: left top; z-index: 8;"><div role="listbox" tabindex="-1" class="v-list v-select-list v-sheet theme--light v-list--dense theme--light" id="list-413"><div tabindex="0" aria-selected="false" id="list-item-446-0" role="option" class="v-list-item v-list-item--link theme--light v-list-item--highlighted"><div class="v-list-item__content"><div class="v-list-item__title">1234556 - <span class="v-list-item__mask">Pruebas luis castaneda</span></div></div></div></div></div></div><script src="/js/chunk-vendors.543fc939.js" wfd-invisible="true"></script><script src="/js/app.8002dbce.js" wfd-invisible="true"></script><svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg></body></html>

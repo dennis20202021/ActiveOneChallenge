@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.20/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.20/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.20/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.20/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.20/datatables.bootstrap4.min.css" rel="stylesheet" />
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Active One challenge project</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="487b2d2abe5687fc9a15e54d86d32137b71ad074b24bfe6f0177a0d64b120876.html">Create New Referral In Noah Web App</a></span>
+                > <span class="truncate-60"><a
+                    href="977ef934d34d310007885c837f0fab071d912a261cad6028ce89f10c4839bfc9.html">Create new referral </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 23-11-2022 20:34</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Create New Referral In Noah Web App </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="1d0c02fb9cb969bbd9e2f900ec6333e01b070c6fb5e26345e9374169cfab9e68.html">Regression
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="51faa762b623f67f587b41ea55ac39589115f9e0c634fd2393256b9b807373eb.html">Create New Referral
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Create new referral
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="26dff31f606b079475585df94e28f0f31f0b087c302521248890b71434bc6c87.png" title=" Given Online user navigates to Noah login home page" width="1366"/>
+                <img src="26dff31f606b079475585df94e28f0f31f0b087c302521248890b71434bc6c87.png" title=" Online user opens the Noah Login Home Page" width="1366"/>
+                <img src="26dff31f606b079475585df94e28f0f31f0b087c302521248890b71434bc6c87.png" title=" Online user opens the Noah login UI" width="1366"/>
+                <img src="26dff31f606b079475585df94e28f0f31f0b087c302521248890b71434bc6c87.png" title=" Online user opens the Noah Login Home Page (completed)" width="1366"/>
+                <img src="26dff31f606b079475585df94e28f0f31f0b087c302521248890b71434bc6c87.png" title=" Given Online user navigates to Noah login home page (completed)" width="1366"/>
+                <img src="a366046b5db9674ee6a8a731e4803febed76adfb704d357ad8f98ad38c768bab.png" title=" When he types valid credentials to login" width="1366"/>
+                <img src="a366046b5db9674ee6a8a731e4803febed76adfb704d357ad8f98ad38c768bab.png" title=" he types credentials correctly" width="1366"/>
+                <img src="a366046b5db9674ee6a8a731e4803febed76adfb704d357ad8f98ad38c768bab.png" title=" he enters 'prueba@prueba.com' into Email" width="1366"/>
+                <img src="a366046b5db9674ee6a8a731e4803febed76adfb704d357ad8f98ad38c768bab.png" title=" he enters 'prueba@prueba.com' into Email (completed)" width="1366"/>
+                <img src="3a9858749db78a150b349bf199a47cabf6bd0006b06526d3c2f047c9c98b2ede.png" title=" he enters 'K8m66TsaAP(j' into Password" width="1366"/>
+                <img src="656007c80e52945e39b1db7a776cae48a05d19650b3e7f59411ff30a85ca2272.png" title=" he enters 'K8m66TsaAP(j' into Password" width="1366"/>
+                <img src="656007c80e52945e39b1db7a776cae48a05d19650b3e7f59411ff30a85ca2272.png" title=" he enters 'K8m66TsaAP(j' into Password (completed)" width="1366"/>
+                <img src="656007c80e52945e39b1db7a776cae48a05d19650b3e7f59411ff30a85ca2272.png" title=" he types credentials correctly (completed)" width="1366"/>
+                <img src="65d6e83fcc708dceeef8e2beeb59dab20b94304ab2674279a53ec0a4e5328416.png" title=" When he types valid credentials to login (completed)" width="1366"/>
+                <img src="dd90330143d50d2a8802dadacf0dc36624be15a8a8c60d54fbd6a8bdecdd7788.png" title=" And he performs click on 'Ingresar' button" width="1366"/>
+                <img src="dd90330143d50d2a8802dadacf0dc36624be15a8a8c60d54fbd6a8bdecdd7788.png" title=" he performs click on 'Ingresar' button to login" width="1366"/>
+                <img src="dd90330143d50d2a8802dadacf0dc36624be15a8a8c60d54fbd6a8bdecdd7788.png" title=" he clicks on Submit Button" width="1366"/>
+                <img src="5d32052a2feefb55d01726034e5d166bdfbf704d981fb8e295fc51eea77ac999.png" title=" he clicks on Submit Button" width="1366"/>
+                <img src="5d32052a2feefb55d01726034e5d166bdfbf704d981fb8e295fc51eea77ac999.png" title=" he clicks on Submit Button (completed)" width="1366"/>
+                <img src="5d32052a2feefb55d01726034e5d166bdfbf704d981fb8e295fc51eea77ac999.png" title=" he performs click on 'Ingresar' button to login (completed)" width="1366"/>
+                <img src="72aed5aed4cb30ae68560e46655583da728159c61bc88e03dbaa65d5def0fb31.png" title=" And he performs click on 'Ingresar' button (completed)" width="1366"/>
+                <img src="89076f2a5ccdf7ca07aacc7681db766b2df63bf4762ddecdb951c8139f048b4c.png" title=" And he performs click on 'Transacciones' option" width="1366"/>
+                <img src="89076f2a5ccdf7ca07aacc7681db766b2df63bf4762ddecdb951c8139f048b4c.png" title=" he performs click in the 'Transacciones' option" width="1366"/>
+                <img src="e363cd08d344ce5cbe8dc6b0ddd139772b636d6d55a6ab9e2d84133609873465.png" title=" he clicks on Transactions" width="1366"/>
+                <img src="7c5209b5f82e49353aff3cb42eb365b73703fc41584e6bd8a8cf06e6ff740900.png" title=" he clicks on Transactions" width="1366"/>
+                <img src="7c5209b5f82e49353aff3cb42eb365b73703fc41584e6bd8a8cf06e6ff740900.png" title=" he clicks on Transactions (completed)" width="1366"/>
+                <img src="7c5209b5f82e49353aff3cb42eb365b73703fc41584e6bd8a8cf06e6ff740900.png" title=" he performs click in the 'Transacciones' option (completed)" width="1366"/>
+                <img src="5d66e7c12db82b9acf17106f84b5b15817360f39b0fd6dd9fe9350d7e18dd64c.png" title=" And he performs click on 'Transacciones' option (completed)" width="1366"/>
+                <img src="9557a83f634e8bf42e95f67dc9dddcc803afe8c8ef019c3efd58f98ce149574a.png" title=" And he performs click on 'Remisiones' from list options" width="1366"/>
+                <img src="9557a83f634e8bf42e95f67dc9dddcc803afe8c8ef019c3efd58f98ce149574a.png" title=" he performs click in the submenu 'Remisiones' option" width="1366"/>
+                <img src="e2dc3cca682d08ba128e9bf29ec8c68ba621f7a9bec35bd6dbca820b8defe4bf.png" title=" he clicks on Referral" width="1366"/>
+                <img src="86f8b9ea191f2800327cc090cbd1d95332ad38c562f2d4282baab506d67e72fd.png" title=" he clicks on Referral" width="1366"/>
+                <img src="86f8b9ea191f2800327cc090cbd1d95332ad38c562f2d4282baab506d67e72fd.png" title=" he clicks on Referral (completed)" width="1366"/>
+                <img src="86f8b9ea191f2800327cc090cbd1d95332ad38c562f2d4282baab506d67e72fd.png" title=" he performs click in the submenu 'Remisiones' option (completed)" width="1366"/>
+                <img src="8ad0e9a3788b9a900859a642d2268f987aac2116af2fe7f6373b9e61dbabb15c.png" title=" And he performs click on 'Remisiones' from list options (completed)" width="1366"/>
+                <img src="88f3794324dcda10c701266ecf80590e2d5117cd2c29070207617cc1c74cffd7.png" title=" And he performs click on 'Crear remisi&oacute;n' button link" width="1366"/>
+                <img src="88f3794324dcda10c701266ecf80590e2d5117cd2c29070207617cc1c74cffd7.png" title=" he performs click 'Crear remisi&oacute;n' button" width="1366"/>
+                <img src="fa2b2f8f5e6e74bb325a74a6f4f0bc806960869534adf6c5b6d596592470a50e.png" title=" he clicks on Create referral" width="1366"/>
+                <img src="b0141d007a8e5c731d34003b97a764ff912672879b2fb0c6d740092199870bc2.png" title=" he clicks on Create referral (completed)" width="1366"/>
+                <img src="b0141d007a8e5c731d34003b97a764ff912672879b2fb0c6d740092199870bc2.png" title=" he performs click 'Crear remisi&oacute;n' button (completed)" width="1366"/>
+                <img src="5b4ba5f633cb99a01fd4361a0af95f073f163d47954aa033588fd0bf41f81164.png" title=" And he performs click on 'Crear remisi&oacute;n' button link (completed)" width="1366"/>
+                <img src="2a4d94f13c121397815570b9c5a107d8960c67a05119778b808b9b28fa03beb8.png" title=" And he selects id type" width="1366"/>
+                <img src="2a4d94f13c121397815570b9c5a107d8960c67a05119778b808b9b28fa03beb8.png" title=" he selects id type" width="1366"/>
+                <img src="3df9dcab316f420953ad54c7721f1ec5add85c3070fd55e211bd1fd91edcda43.png" title=" he clears field Document type" width="1366"/>
+                <img src="f48a8459b495e14522e82ac59d75b86f7effae1c30ca380d9fcccce98d28f563.png" title=" he clears field Document type (completed)" width="1366"/>
+                <img src="f48a8459b495e14522e82ac59d75b86f7effae1c30ca380d9fcccce98d28f563.png" title=" he enters 'R' then hits [ENTER] into Document type" width="1366"/>
+                <img src="233317eec5bc20540864ad53b462c4e2de297d52e4f748e6675d81fddd855a4a.png" title=" he enters 'R' then hits [ENTER] into Document type" width="1366"/>
+                <img src="e3044f2a0eacfb15399da3c16c19bc9efb6569417709b44fd4a8094070d295d9.png" title=" he enters 'R' then hits [ENTER] into Document type (completed)" width="1366"/>
+                <img src="e3044f2a0eacfb15399da3c16c19bc9efb6569417709b44fd4a8094070d295d9.png" title=" he selects id type (completed)" width="1366"/>
+                <img src="cd5482d2389f753a03b257cbfc84b54744fe128f053e5b524fe95388362cd62e.png" title=" And he selects id type (completed)" width="1366"/>
+                <img src="976944c1ea7f537e55cb7a84ca47264a60932e44d2da5ac41b080c763c0d4aec.png" title=" And he selects customer" width="1366"/>
+                <img src="976944c1ea7f537e55cb7a84ca47264a60932e44d2da5ac41b080c763c0d4aec.png" title=" he selects customer" width="1366"/>
+                <img src="58a3c7f12be92714d776662824f810f2d0283144d6647de55b1221a65d9434d2.png" title=" he enters '1128277543' into Customer" width="1366"/>
+                <img src="760654f7dc908a0343a93959b643dd5b32c2ce5f869922df0100bd6acc54b5fc.png" title=" he enters '1128277543' into Customer" width="1366"/>
+                <img src="760654f7dc908a0343a93959b643dd5b32c2ce5f869922df0100bd6acc54b5fc.png" title=" he enters '1128277543' into Customer (completed)" width="1366"/>
+                <img src="e0cde89c70a48811981615cc6da4f6f71573a2345d01895804b346c1d3f0e90a.png" title=" he clicks on Suggested option" width="1366"/>
+                <img src="635150a96f1480f0a7deb6adf9da39dedc1271fe6915fdbc947962b0f33f3feb.png" title=" he clicks on Suggested option" width="1366"/>
+                <img src="635150a96f1480f0a7deb6adf9da39dedc1271fe6915fdbc947962b0f33f3feb.png" title=" he clicks on Suggested option (completed)" width="1366"/>
+                <img src="635150a96f1480f0a7deb6adf9da39dedc1271fe6915fdbc947962b0f33f3feb.png" title=" he selects customer (completed)" width="1366"/>
+                <img src="c3dd3c2f87dc43d56c9b5b66cf6b0652343ab26a8373b5fd5b4084e9f0de7765.png" title=" And he selects customer (completed)" width="1366"/>
+                <img src="2ec8434fdcf1f63614b948c86bb0c917144f3c75f91b9116b0c4e8b299ee3452.png" title=" And he selects payment way" width="1366"/>
+                <img src="2ec8434fdcf1f63614b948c86bb0c917144f3c75f91b9116b0c4e8b299ee3452.png" title=" he selects payment way" width="1366"/>
+                <img src="2ec8434fdcf1f63614b948c86bb0c917144f3c75f91b9116b0c4e8b299ee3452.png" title=" he clicks on Payment way" width="1366"/>
+                <img src="ecde98f55acf02e7f7039bfb308214c8b1dc140f15ac567a4a680afbe97d72c1.png" title=" he clicks on Payment way" width="1366"/>
+                <img src="ecde98f55acf02e7f7039bfb308214c8b1dc140f15ac567a4a680afbe97d72c1.png" title=" he clicks on Payment way (completed)" width="1366"/>
+                <img src="ecde98f55acf02e7f7039bfb308214c8b1dc140f15ac567a4a680afbe97d72c1.png" title=" he enters 'Contado' into Payment way" width="1366"/>
+                <img src="583b73725cfbd8e8c735305fd641b898ceb6582bef12b1bd047b5f5e42957f03.png" title=" he enters 'Contado' into Payment way" width="1366"/>
+                <img src="583b73725cfbd8e8c735305fd641b898ceb6582bef12b1bd047b5f5e42957f03.png" title=" he enters 'Contado' into Payment way (completed)" width="1366"/>
+                <img src="583b73725cfbd8e8c735305fd641b898ceb6582bef12b1bd047b5f5e42957f03.png" title=" he clicks on Suggested payment option" width="1366"/>
+                <img src="c219d5118b8519ef986d05235216eec1f4b6365c23cbf82db56351e17e13652c.png" title=" he clicks on Suggested payment option" width="1366"/>
+                <img src="c219d5118b8519ef986d05235216eec1f4b6365c23cbf82db56351e17e13652c.png" title=" he clicks on Suggested payment option (completed)" width="1366"/>
+                <img src="c219d5118b8519ef986d05235216eec1f4b6365c23cbf82db56351e17e13652c.png" title=" he selects payment way (completed)" width="1366"/>
+                <img src="c219d5118b8519ef986d05235216eec1f4b6365c23cbf82db56351e17e13652c.png" title=" And he selects payment way (completed)" width="1366"/>
+                <img src="4dc79d60e5af15c13e00cde556565db6e9cf8553230ed081af097271828cd219.png" title=" And he types some notes" width="1366"/>
+                <img src="934416a80c79648b1b818b0050f8c133b2ca95e7d81989de13d9a376bfa45dac.png" title=" he types some notes" width="1366"/>
+                <img src="60351c5adb000ba0581871fbcdff83466583dadd0fb51ab2159eb622bbe2fbaf.png" title=" he enters 'Nueva remisi&oacute;n persona natural' into Notes" width="1366"/>
+                <img src="bdbcf7107cad786116de9cd8e8b48d1e395a5e4af0123a70b5ded61e4244f011.png" title=" he enters 'Nueva remisi&oacute;n persona natural' into Notes" width="1366"/>
+                <img src="bdbcf7107cad786116de9cd8e8b48d1e395a5e4af0123a70b5ded61e4244f011.png" title=" he enters 'Nueva remisi&oacute;n persona natural' into Notes (completed)" width="1366"/>
+                <img src="bdbcf7107cad786116de9cd8e8b48d1e395a5e4af0123a70b5ded61e4244f011.png" title=" he types some notes (completed)" width="1366"/>
+                <img src="0cbd673ab80cbd491142d4738888558e13a875ab1978a9b28eb345c5d99f727c.png" title=" And he types some notes (completed)" width="1366"/>
+                <img src="397c55af27e53218ccfc25ed32b429dbf12d217785bb084086ca2b6993b255c4.png" title=" And he deletes default item" width="1366"/>
+                <img src="397c55af27e53218ccfc25ed32b429dbf12d217785bb084086ca2b6993b255c4.png" title=" he deletes default item" width="1366"/>
+                <img src="397c55af27e53218ccfc25ed32b429dbf12d217785bb084086ca2b6993b255c4.png" title=" he clicks on Delete" width="1366"/>
+                <img src="a4b3937abf34414eb9030525c79cb8a8f632a82152adb263a7ca6a101988e0b8.png" title=" he clicks on Delete" width="1366"/>
+                <img src="a4b3937abf34414eb9030525c79cb8a8f632a82152adb263a7ca6a101988e0b8.png" title=" he clicks on Delete (completed)" width="1366"/>
+                <img src="a4b3937abf34414eb9030525c79cb8a8f632a82152adb263a7ca6a101988e0b8.png" title=" he deletes default item (completed)" width="1366"/>
+                <img src="6146da9f616a6676f9a700dc74fd52f9dfdc6836a7f374e8ca83015de91454cd.png" title=" And he deletes default item (completed)" width="1366"/>
+                <img src="cc6b602d9928486e10dadabfedcea36c771fad4a3f23757ae17882e3bf7474f9.png" title=" And he adds products, services or plans" width="1366"/>
+                <img src="cc6b602d9928486e10dadabfedcea36c771fad4a3f23757ae17882e3bf7474f9.png" title=" he add new item" width="1366"/>
+                <img src="cc6b602d9928486e10dadabfedcea36c771fad4a3f23757ae17882e3bf7474f9.png" title=" he add custom product item" width="1366"/>
+                <img src="cc6b602d9928486e10dadabfedcea36c771fad4a3f23757ae17882e3bf7474f9.png" title=" he clicks on Add product" width="1366"/>
+                <img src="3141d8a1444a937453d30f3145f8df5c699ad2fcc725e1e7a71b9763e0683ddc.png" title=" he clicks on Add product" width="1366"/>
+                <img src="3141d8a1444a937453d30f3145f8df5c699ad2fcc725e1e7a71b9763e0683ddc.png" title=" he clicks on Add product (completed)" width="1366"/>
+                <img src="789137b8b35f62a9c0fa90cc1c90ebdcaa7134f7b2be0f770f2d75d25e398aa1.png" title=" he clicks on Product" width="1366"/>
+                <img src="099a44be6c81c59b51d7c4cfda4e73ad520eeee2a877afadcee6edb45a803e8e.png" title=" he clicks on Product" width="1366"/>
+                <img src="099a44be6c81c59b51d7c4cfda4e73ad520eeee2a877afadcee6edb45a803e8e.png" title=" he clicks on Product (completed)" width="1366"/>
+                <img src="6ffcbc89a1c86eb7394323e2a19fd7b85bbaa8151d3cf2a0b848ef0ecf9e7294.png" title=" he enters 'Pruebas luis castaneda' into Product" width="1366"/>
+                <img src="a2e2fb2f40eda8153d90468719040c458446076ea93c50628dc912bd5962c58e.png" title=" he enters 'Pruebas luis castaneda' into Product" width="1366"/>
+                <img src="11635cb178e8d4de3bdcf663c133d6ffdf4700491afb05024c7a781a549f9944.png" title=" he enters 'Pruebas luis castaneda' into Product (completed)" width="1366"/>
+                <img src="7d7e15194be677f05f9d5bc1a40aa168038fe061ee18778bc2329729ebe8bfd6.png" title=" he clicks on Select right product option" width="1366"/>
+                <img src="36c92a1df36ec87a2eadd4894742da97e28a2b13ac7b8ea1db0f8855ec9d3246.png" title=" he clicks on Select right product option" width="1366"/>
+                <img src="36c92a1df36ec87a2eadd4894742da97e28a2b13ac7b8ea1db0f8855ec9d3246.png" title=" he clicks on Select right product option (completed)" width="1366"/>
+                <img src="36c92a1df36ec87a2eadd4894742da97e28a2b13ac7b8ea1db0f8855ec9d3246.png" title=" he add custom product item (completed)" width="1366"/>
+                <img src="13859a944d686ee3a7a980420b4f7b700637ba53af88c3ee1585f750292308b2.png" title=" he add custom service item" width="1366"/>
+                <img src="13859a944d686ee3a7a980420b4f7b700637ba53af88c3ee1585f750292308b2.png" title=" he add custom service item (completed)" width="1366"/>
+                <img src="13859a944d686ee3a7a980420b4f7b700637ba53af88c3ee1585f750292308b2.png" title=" he add custom plan item" width="1366"/>
+                <img src="227f64e5d42a1eefe9b27b97859e9ccc1fe7d696f5521af2c2402fac4eae5926.png" title=" he clicks on Add plan" width="1366"/>
+                <img src="e6cbf58cf4f22e3a26218e1066d0731247407394176930aeb96caad0af174c20.png" title=" he clicks on Add plan" width="1366"/>
+                <img src="e6cbf58cf4f22e3a26218e1066d0731247407394176930aeb96caad0af174c20.png" title=" he clicks on Add plan (completed)" width="1366"/>
+                <img src="ee7b33c8c349c974052bc224b80b4952dd31c58bd1bed3c0577b010be16bfa35.png" title=" he clicks on Plan" width="1366"/>
+                <img src="35d9666bc15693ebc6e7055a8c342e57b3627a3802464629a90b529c8c79f052.png" title=" he clicks on Plan" width="1366"/>
+                <img src="35d9666bc15693ebc6e7055a8c342e57b3627a3802464629a90b529c8c79f052.png" title=" he clicks on Plan (completed)" width="1366"/>
+                <img src="35d9666bc15693ebc6e7055a8c342e57b3627a3802464629a90b529c8c79f052.png" title=" he enters 'Mensualidad 1 d/s' into Plan" width="1366"/>
+                <img src="96500581c8d2ced7b0f52be42eb35d6aa8455fda8b75f8706b6d26a59039070f.png" title=" he enters 'Mensualidad 1 d/s' into Plan" width="1366"/>
+                <img src="96500581c8d2ced7b0f52be42eb35d6aa8455fda8b75f8706b6d26a59039070f.png" title=" he enters 'Mensualidad 1 d/s' into Plan (completed)" width="1366"/>
+                <img src="55d434e9af62272123ceeab0b2169aa9fdb9262022cd002828bc02bcccbc2264.png" title=" he clicks on Select right plan service option" width="1366"/>
+                <img src="5915c998bcf5561691b986b226ed0cb4a9446a7019da842e8d82ed22a9f597b9.png" title=" he clicks on Select right plan service option" width="1366"/>
+                <img src="5915c998bcf5561691b986b226ed0cb4a9446a7019da842e8d82ed22a9f597b9.png" title=" he clicks on Select right plan service option (completed)" width="1366"/>
+                <img src="5915c998bcf5561691b986b226ed0cb4a9446a7019da842e8d82ed22a9f597b9.png" title=" he add custom plan item (completed)" width="1366"/>
+                <img src="5915c998bcf5561691b986b226ed0cb4a9446a7019da842e8d82ed22a9f597b9.png" title=" he add new item (completed)" width="1366"/>
+                <img src="3c1263fa81d9bd22a8f8d3e93d18b45b5b8093b2c374938c399e23b3e1713bce.png" title=" And he adds products, services or plans (completed)" width="1366"/>
+                <img src="90eec0b68681622e9829b7aa08de7d6ac75a9958c422c3d4c45f47815132df11.png" title=" And he adds products, services or plans quantity" width="1366"/>
+                <img src="90eec0b68681622e9829b7aa08de7d6ac75a9958c422c3d4c45f47815132df11.png" title=" he adds item quantity" width="1366"/>
+                <img src="90eec0b68681622e9829b7aa08de7d6ac75a9958c422c3d4c45f47815132df11.png" title=" he add quantity product if applicable" width="1366"/>
+                <img src="90eec0b68681622e9829b7aa08de7d6ac75a9958c422c3d4c45f47815132df11.png" title=" he clears field Product quantity" width="1366"/>
+                <img src="122813cd4b93ca9c8fe7f4ac380827a8f2db4039a36bd3325ae3b821756382ef.png" title=" he clears field Product quantity (completed)" width="1366"/>
+                <img src="122813cd4b93ca9c8fe7f4ac380827a8f2db4039a36bd3325ae3b821756382ef.png" title=" he enters '2' into Product quantity" width="1366"/>
+                <img src="4614ada112e11d3509c047a09bd34ae775a0d2e5574d830c4e4d53276a0defc3.png" title=" he enters '2' into Product quantity" width="1366"/>
+                <img src="4614ada112e11d3509c047a09bd34ae775a0d2e5574d830c4e4d53276a0defc3.png" title=" he enters '2' into Product quantity (completed)" width="1366"/>
+                <img src="a73bb85e4b3dc6f36f113e36e9f04a00f629ae1c1b781082e28122ec1e10a861.png" title=" he add quantity product if applicable (completed)" width="1366"/>
+                <img src="a73bb85e4b3dc6f36f113e36e9f04a00f629ae1c1b781082e28122ec1e10a861.png" title=" he add quantity service if applicable" width="1366"/>
+                <img src="a73bb85e4b3dc6f36f113e36e9f04a00f629ae1c1b781082e28122ec1e10a861.png" title=" he add quantity service if applicable (completed)" width="1366"/>
+                <img src="a60568d561f8a454536697c3faac06d6a13eadd8d64d1dab1e038e12ada5c37f.png" title=" he add quantity plan if applicable" width="1366"/>
+                <img src="1897394df2518bf967aa87e584e8def8e651a334ad10c1995b6f871637e37d14.png" title=" he clears field Plan quantity" width="1366"/>
+                <img src="2c0af02a485e0363453d15475c5bca55b05036c5c0d655b104b0428f66a32616.png" title=" he clears field Plan quantity (completed)" width="1366"/>
+                <img src="2c0af02a485e0363453d15475c5bca55b05036c5c0d655b104b0428f66a32616.png" title=" he enters '3' into Plan quantity" width="1366"/>
+                <img src="512cf00008727b74c17f11d4023d5facb59e616b5079e1e2f9c85b628bc8ca6f.png" title=" he enters '3' into Plan quantity" width="1366"/>
+                <img src="512cf00008727b74c17f11d4023d5facb59e616b5079e1e2f9c85b628bc8ca6f.png" title=" he enters '3' into Plan quantity (completed)" width="1366"/>
+                <img src="512cf00008727b74c17f11d4023d5facb59e616b5079e1e2f9c85b628bc8ca6f.png" title=" he add quantity plan if applicable (completed)" width="1366"/>
+                <img src="512cf00008727b74c17f11d4023d5facb59e616b5079e1e2f9c85b628bc8ca6f.png" title=" he adds item quantity (completed)" width="1366"/>
+                <img src="59e8f6cb61b32cc4aa16a2888b30edc38cb5f6582be875d052db71ded41fc336.png" title=" And he adds products, services or plans quantity (completed)" width="1366"/>
+                <img src="082ae1a597cf6fde7e419a599bd776c1a7a0eb95126b2c1b82ace2e58278e677.png" title=" And he adds discounts by value or percentage if applicable to products, services or plans" width="1366"/>
+                <img src="082ae1a597cf6fde7e419a599bd776c1a7a0eb95126b2c1b82ace2e58278e677.png" title=" he adds discounts by value or percentage if applicable" width="1366"/>
+                <img src="082ae1a597cf6fde7e419a599bd776c1a7a0eb95126b2c1b82ace2e58278e677.png" title=" he apply discount to product if applicable" width="1366"/>
+                <img src="082ae1a597cf6fde7e419a599bd776c1a7a0eb95126b2c1b82ace2e58278e677.png" title=" he clicks on Product discount" width="1366"/>
+                <img src="60dea1c913e08db5d68dfde307c27f217d601143cb7dd54ac6e7950e318fde74.png" title=" he clicks on Product discount" width="1366"/>
+                <img src="60dea1c913e08db5d68dfde307c27f217d601143cb7dd54ac6e7950e318fde74.png" title=" he clicks on Product discount (completed)" width="1366"/>
+                <img src="60dea1c913e08db5d68dfde307c27f217d601143cb7dd54ac6e7950e318fde74.png" title=" he enters 'Porcentaje' into Product discount" width="1366"/>
+                <img src="bc7077a5d3a09e664778d069d394de3aee864df8de9450259c3d92c9ee398446.png" title=" he enters 'Porcentaje' into Product discount" width="1366"/>
+                <img src="bc7077a5d3a09e664778d069d394de3aee864df8de9450259c3d92c9ee398446.png" title=" he enters 'Porcentaje' into Product discount (completed)" width="1366"/>
+                <img src="bc7077a5d3a09e664778d069d394de3aee864df8de9450259c3d92c9ee398446.png" title=" he clicks on Product discount" width="1366"/>
+                <img src="c2ab942bab56ce2219753ce02becb20484f92f6e6201370906ff37c17d9be61d.png" title=" he clicks on Product discount" width="1366"/>
+                <img src="c2ab942bab56ce2219753ce02becb20484f92f6e6201370906ff37c17d9be61d.png" title=" he clicks on Product discount (completed)" width="1366"/>
+                <img src="006f5c90dbc3f70e9b6c53219d7296b25dc08e2c6140deb5689df6ddc648df73.png" title=" he clicks on Product value" width="1366"/>
+                <img src="aaed3df174d097a28fff6fdff7817a7c07c412a773a8f914e9942cbfb7b81fa2.png" title=" he clicks on Product value" width="1366"/>
+                <img src="aaed3df174d097a28fff6fdff7817a7c07c412a773a8f914e9942cbfb7b81fa2.png" title=" he clicks on Product value (completed)" width="1366"/>
+                <img src="aaed3df174d097a28fff6fdff7817a7c07c412a773a8f914e9942cbfb7b81fa2.png" title=" he enters '15' into Product value" width="1366"/>
+                <img src="9a6eb3a543e55814192e9eb97716ec0897fc148b94b19c6fc60c124cad7b89bf.png" title=" he enters '15' into Product value" width="1366"/>
+                <img src="9a6eb3a543e55814192e9eb97716ec0897fc148b94b19c6fc60c124cad7b89bf.png" title=" he enters '15' into Product value (completed)" width="1366"/>
+                <img src="9a6eb3a543e55814192e9eb97716ec0897fc148b94b19c6fc60c124cad7b89bf.png" title=" he apply discount to product if applicable (completed)" width="1366"/>
+                <img src="448f9abf4f5886cc9d23d796c61d3c7e43429d40057d0fa50ccc19d702ee1766.png" title=" he apply discount to service if applicable" width="1366"/>
+                <img src="448f9abf4f5886cc9d23d796c61d3c7e43429d40057d0fa50ccc19d702ee1766.png" title=" he apply discount to service if applicable (completed)" width="1366"/>
+                <img src="93bbdd974d72419a74e5075495a8922b95eb5145676508b034097ec6404837ad.png" title=" he apply discount to plan if applicable" width="1366"/>
+                <img src="c8d4845d631df5f06fa2743029e776e91438668517c04a16e73a1de14cf0a1a1.png" title=" he clicks on Plan discount" width="1366"/>
+                <img src="37a3a4b774e6e7472f838c67b749972fb0f2039c26411531189a21912bfb1379.png" title=" he clicks on Plan discount" width="1366"/>
+                <img src="37a3a4b774e6e7472f838c67b749972fb0f2039c26411531189a21912bfb1379.png" title=" he clicks on Plan discount (completed)" width="1366"/>
+                <img src="37a3a4b774e6e7472f838c67b749972fb0f2039c26411531189a21912bfb1379.png" title=" he enters 'Valor' into Plan discount" width="1366"/>
+                <img src="1deab3226e5b401e0b07d9de58961e0e59ef8605db955a234f17662494738aa4.png" title=" he enters 'Valor' into Plan discount" width="1366"/>
+                <img src="1deab3226e5b401e0b07d9de58961e0e59ef8605db955a234f17662494738aa4.png" title=" he enters 'Valor' into Plan discount (completed)" width="1366"/>
+                <img src="1deab3226e5b401e0b07d9de58961e0e59ef8605db955a234f17662494738aa4.png" title=" he clicks on Plan discount" width="1366"/>
+                <img src="99321147c17184771177ae2d0bdb8e19013f7df08181a4bf7a834aa0ef8b559d.png" title=" he clicks on Plan discount" width="1366"/>
+                <img src="99321147c17184771177ae2d0bdb8e19013f7df08181a4bf7a834aa0ef8b559d.png" title=" he clicks on Plan discount (completed)" width="1366"/>
+                <img src="6d3a61f52d8ec9c4eb5832da579c7c8ae5c4b345413635727a6b556393b22dad.png" title=" he clicks on Plan value" width="1366"/>
+                <img src="8f547869783c1d8deca9e85161ece6f36049c7f4fb5f718216a8464461acbfc6.png" title=" he clicks on Plan value" width="1366"/>
+                <img src="8f547869783c1d8deca9e85161ece6f36049c7f4fb5f718216a8464461acbfc6.png" title=" he clicks on Plan value (completed)" width="1366"/>
+                <img src="8f547869783c1d8deca9e85161ece6f36049c7f4fb5f718216a8464461acbfc6.png" title=" he enters '3000' into Plan value" width="1366"/>
+                <img src="58a63ca6006f56b20e5b8fcc9e6ec05401c176b34e108a801765bacc7f6d1903.png" title=" he enters '3000' into Plan value" width="1366"/>
+                <img src="58a63ca6006f56b20e5b8fcc9e6ec05401c176b34e108a801765bacc7f6d1903.png" title=" he enters '3000' into Plan value (completed)" width="1366"/>
+                <img src="58a63ca6006f56b20e5b8fcc9e6ec05401c176b34e108a801765bacc7f6d1903.png" title=" he apply discount to plan if applicable (completed)" width="1366"/>
+                <img src="58a63ca6006f56b20e5b8fcc9e6ec05401c176b34e108a801765bacc7f6d1903.png" title=" he adds discounts by value or percentage if applicable (completed)" width="1366"/>
+                <img src="58a63ca6006f56b20e5b8fcc9e6ec05401c176b34e108a801765bacc7f6d1903.png" title=" And he adds discounts by value or percentage if applicable to products, services or plans (completed)" width="1366"/>
+                <img src="b201e8a26ad710af036914dc80bc850d32d8d009df3e7c1ef60ccf89cf47abba.png" title=" Then he verifies total for each value added" width="1366"/>
+                <img src="b201e8a26ad710af036914dc80bc850d32d8d009df3e7c1ef60ccf89cf47abba.png" title=" he verifies total item" width="1366"/>
+                <img src="b201e8a26ad710af036914dc80bc850d32d8d009df3e7c1ef60ccf89cf47abba.png" title=" Then total price verification$$ lambda$909/1435148785 should be a string equal to '$ 573.178,50' ignoring case" width="1366"/>
+                <img src="b201e8a26ad710af036914dc80bc850d32d8d009df3e7c1ef60ccf89cf47abba.png" title=" he verifies total item (completed)" width="1366"/>
+                <img src="b201e8a26ad710af036914dc80bc850d32d8d009df3e7c1ef60ccf89cf47abba.png" title=" Then he verifies total for each value added (completed)" width="1366"/>
+                <img src="af7c3977503665dac3df1568d38aef0b091079572299c9edb5513f6bbbb0e6bf.png" title=" When he performs click on save button" width="1366"/>
+                <img src="af7c3977503665dac3df1568d38aef0b091079572299c9edb5513f6bbbb0e6bf.png" title=" he performs click on save button" width="1366"/>
+                <img src="af7c3977503665dac3df1568d38aef0b091079572299c9edb5513f6bbbb0e6bf.png" title=" he clicks on Save button" width="1366"/>
+                <img src="c9842259030837cf1c94e57609a742642bf18b66df9f967a0f649df729afdebf.png" title=" he clicks on Save button" width="1366"/>
+                <img src="c9842259030837cf1c94e57609a742642bf18b66df9f967a0f649df729afdebf.png" title=" he clicks on Save button (completed)" width="1366"/>
+                <img src="f9564bc4b4efa569edab2023694047c83c376c65a06259716d7d7311674b1fdc.png" title=" he clicks on Save option" width="1366"/>
+                <img src="47b9774210c6bb0157a5699e7e86488d40ea2d0f6d071166812d81f9b163cdaa.png" title=" he clicks on Save option" width="1366"/>
+                <img src="47b9774210c6bb0157a5699e7e86488d40ea2d0f6d071166812d81f9b163cdaa.png" title=" he clicks on Save option (completed)" width="1366"/>
+                <img src="47b9774210c6bb0157a5699e7e86488d40ea2d0f6d071166812d81f9b163cdaa.png" title=" he performs click on save button (completed)" width="1366"/>
+                <img src="4a3dea2fff089b24273b4bebe823ebf7e1c28d629cced82c0532c2142fa004e8.png" title=" When he performs click on save button (completed)" width="1366"/>
+                <img src="b4ab167b6a0d16351600681dfc040a808a4fb255eb54bb5148b6f736709e75c4.png" title=" Then he validates register saved successfully" width="1366"/>
+                <img src="b4ab167b6a0d16351600681dfc040a808a4fb255eb54bb5148b6f736709e75c4.png" title=" he validates information successfully created" width="1366"/>
+                <img src="b4ab167b6a0d16351600681dfc040a808a4fb255eb54bb5148b6f736709e75c4.png" title=" Then validate successful message$$ lambda$914/1534376821 should be a string equal to 'El registro fue creado exitosamente' ignoring case" width="1366"/>
+                <img src="e953bb86576f7cd53822a1f1a07e20244172ff34db5dc430b211e6e0b9d9af12.png" title=" Then validate successful message$$ lambda$914/1534376821 should be a string equal to 'El registro fue creado exitosamente' ignoring case (completed)" width="1366"/>
+                <img src="e953bb86576f7cd53822a1f1a07e20244172ff34db5dc430b211e6e0b9d9af12.png" title=" he validates information successfully created (completed)" width="1366"/>
+                <img src="e953bb86576f7cd53822a1f1a07e20244172ff34db5dc430b211e6e0b9d9af12.png" title=" Then he validates register saved successfully (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.6.0</span>
+</div>
+</body>
+</html>
